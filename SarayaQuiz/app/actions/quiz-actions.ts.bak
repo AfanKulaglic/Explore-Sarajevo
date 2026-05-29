@@ -1,0 +1,282 @@
+'use server'
+
+import { requireAdmin } from '@/lib/auth'
+import { validateQuizForPublish, generateUniqueSlug } from '@/lib/quiz-utils'
+import { revalidatePath } from 'next/cache'
+import { createSupabaseServiceClient } from '@/lib/supabase'
+
+export async function createQuiz(title: string) {
+  const session = await requireAdmin()
+  const supabase = createSupabaseServiceClient()
+  
+  const { data: quiz, error } = await supabase
+    .from('QuizPost')
+    .insert({
+      title,
+      authorId: session.user.id,
+      authorEmail: session.user.email || undefined,
+      status: 'DRAFT',
+    })
+    .select()
+    .single()
+  
+  if (error) {
+    console.error('Error creating quiz:', error)
+    return { success: false, error: error.message }
+  }
+  
+  revalidatePath('/admin')
+  return { success: true, quizId: quiz.id }
+}
+
+export async function updateQuizMeta(
+  quizId: string,
+  data: { title?: string; description?: string; theme?: any }
+) {
+  await requireAdmin()
+  
+  await prisma.quizPost.update({
+    where: { id: quizId },
+    data: {
+      title: data.title,
+      description: data.description,
+      theme: data.theme,
+      updatedAt: new Date(),
+    },
+  })
+  
+  revalidatePath('/admin')
+  revalidatePath(`/admin/quizzes/${quizId}/edit`)
+  return { success: true }
+}
+
+export async function deleteQuiz(quizId: string) {
+  await requireAdmin()
+  
+  await prisma.quizPost.delete({
+    where: { id: quizId },
+  })
+  
+  revalidatePath('/admin')
+  return { success: true }
+}
+
+export async function publishQuiz(quizId: string) {
+  await requireAdmin()
+  
+  const quiz = await prisma.quizPost.findUnique({
+    where: { id: quizId },
+    include: {
+      questions: {
+        include: {
+          choices: true,
+        },
+        orderBy: { order: 'asc' },
+      },
+    },
+  })
+  
+  if (!quiz) {
+    return { success: false, error: 'Quiz not found' }
+  }
+  
+  const errors = validateQuizForPublish(quiz)
+  if (errors.length > 0) {
+    return { success: false, errors }
+  }
+  
+  const slug = await generateUniqueSlug(quiz.title)
+  
+  await prisma.quizPost.update({
+    where: { id: quizId },
+    data: {
+      status: 'PUBLISHED',
+      slug,
+      publishedAt: new Date(),
+    },
+  })
+  
+  revalidatePath('/admin')
+  revalidatePath(`/admin/quizzes/${quizId}/edit`)
+  return { success: true, slug }
+}
+
+export async function unpublishQuiz(quizId: string) {
+  await requireAdmin()
+  
+  await prisma.quizPost.update({
+    where: { id: quizId },
+    data: {
+      status: 'DRAFT',
+    },
+  })
+  
+  revalidatePath('/admin')
+  revalidatePath(`/admin/quizzes/${quizId}/edit`)
+  return { success: true }
+}
+
+export async function addQuestion(quizId: string, text: string) {
+  await requireAdmin()
+  
+  const maxOrder = await prisma.question.findFirst({
+    where: { quizPostId: quizId },
+    orderBy: { order: 'desc' },
+    select: { order: true },
+  })
+  
+  const question = await prisma.question.create({
+    data: {
+      quizPostId: quizId,
+      text,
+      order: (maxOrder?.order ?? -1) + 1,
+      type: 'MULTIPLE_CHOICE',
+      points: 1,
+    },
+  })
+  
+  revalidatePath(`/admin/quizzes/${quizId}/edit`)
+  return { success: true, questionId: question.id }
+}
+
+export async function updateQuestion(
+  questionId: string,
+  data: { text?: string; points?: number }
+) {
+  await requireAdmin()
+  
+  const question = await prisma.question.update({
+    where: { id: questionId },
+    data: {
+      text: data.text,
+      points: data.points,
+      updatedAt: new Date(),
+    },
+  })
+  
+  revalidatePath(`/admin/quizzes/${question.quizPostId}/edit`)
+  return { success: true }
+}
+
+export async function deleteQuestion(questionId: string) {
+  await requireAdmin()
+  
+  const question = await prisma.question.findUnique({
+    where: { id: questionId },
+  })
+  
+  if (!question) {
+    return { success: false, error: 'Question not found' }
+  }
+  
+  await prisma.question.delete({
+    where: { id: questionId },
+  })
+  
+  revalidatePath(`/admin/quizzes/${question.quizPostId}/edit`)
+  return { success: true }
+}
+
+export async function reorderQuestions(quizId: string, questionIds: string[]) {
+  await requireAdmin()
+  
+  await Promise.all(
+    questionIds.map((id, index) =>
+      prisma.question.update({
+        where: { id },
+        data: { order: index },
+      })
+    )
+  )
+  
+  revalidatePath(`/admin/quizzes/${quizId}/edit`)
+  return { success: true }
+}
+
+export async function addChoice(questionId: string, text: string) {
+  await requireAdmin()
+  
+  const question = await prisma.question.findUnique({
+    where: { id: questionId },
+    include: { choices: true },
+  })
+  
+  if (!question) {
+    return { success: false, error: 'Question not found' }
+  }
+  
+  // Enforce max 6 choices
+  if (question.choices.length >= 6) {
+    return { success: false, error: 'Maximum 6 choices allowed' }
+  }
+  
+  const maxOrder = Math.max(-1, ...question.choices.map((c: any) => c.order))
+  
+  const choice = await prisma.choice.create({
+    data: {
+      questionId,
+      text,
+      order: maxOrder + 1,
+      isCorrect: false,
+    },
+  })
+  
+  revalidatePath(`/admin/quizzes/${question.quizPostId}/edit`)
+  return { success: true, choiceId: choice.id }
+}
+
+export async function updateChoice(
+  choiceId: string,
+  data: { text?: string; isCorrect?: boolean }
+) {
+  await requireAdmin()
+  
+  const choice = await prisma.choice.findUnique({
+    where: { id: choiceId },
+    include: { question: true },
+  })
+  
+  if (!choice) {
+    return { success: false, error: 'Choice not found' }
+  }
+  
+  // If marking as correct, unmark all other choices for this question
+  if (data.isCorrect === true) {
+    await prisma.choice.updateMany({
+      where: { questionId: choice.questionId },
+      data: { isCorrect: false },
+    })
+  }
+  
+  await prisma.choice.update({
+    where: { id: choiceId },
+    data: {
+      text: data.text,
+      isCorrect: data.isCorrect,
+      updatedAt: new Date(),
+    },
+  })
+  
+  revalidatePath(`/admin/quizzes/${choice.question.quizPostId}/edit`)
+  return { success: true }
+}
+
+export async function deleteChoice(choiceId: string) {
+  await requireAdmin()
+  
+  const choice = await prisma.choice.findUnique({
+    where: { id: choiceId },
+    include: { question: true },
+  })
+  
+  if (!choice) {
+    return { success: false, error: 'Choice not found' }
+  }
+  
+  await prisma.choice.delete({
+    where: { id: choiceId },
+  })
+  
+  revalidatePath(`/admin/quizzes/${choice.question.quizPostId}/edit`)
+  return { success: true }
+}

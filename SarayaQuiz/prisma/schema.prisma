@@ -1,0 +1,356 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+  directUrl = env("DIRECT_URL")
+}
+
+enum QuizStatus {
+  DRAFT
+  PUBLISHED
+}
+
+model User {
+  id          String   @id @default(cuid())
+  email       String   @unique
+  name        String
+  accountId   String   // Central account system ID
+  
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+  
+  @@index([email])
+  @@index([accountId])
+}
+
+// Device tracking for analytics and abuse detection
+model Device {
+  id            String   @id @default(cuid())
+  deviceHash    String   @unique  // SHA-256(raw_device_id + PEPPER)
+  
+  // Device metadata (anonymized)
+  userAgent     String?
+  platform      String?  // 'web', 'mobile', 'tablet'
+  browser       String?
+  os            String?
+  
+  // Stats
+  totalAttempts        Int @default(0)
+  totalPlays           Int @default(0)
+  uniqueQuizzes        Int @default(0)
+  linkedAccountsCount  Int @default(0)
+  
+  // Linked accounts (for multi-account detection)
+  accountIds    String[] @default([])
+  
+  firstSeenAt   DateTime @default(now())
+  lastSeenAt    DateTime @default(now())
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  
+  @@index([lastSeenAt])
+  @@index([linkedAccountsCount])
+}
+
+model QuizPost {
+  id          String     @id @default(cuid())
+
+  authorId    String?
+  authorEmail String?
+
+  title       String
+  description String?
+  status      QuizStatus @default(DRAFT)
+  isActive    Boolean    @default(false)
+  icon        String?    @default("Brain")
+  gradient    String?    @default("from-purple-500 to-pink-500")
+
+  slug        String?    @unique
+  theme       Json       @default("{}")
+  
+  // Reward configuration
+  rewardCoins         Int     @default(10)
+  rewardXp            Int     @default(5)
+  rewardTokens        Int     @default(0)
+  firstTimeMultiplier Decimal @default(5.0) @db.Decimal(3, 1)
+  fullMarksMultiplier Decimal @default(2.0) @db.Decimal(3, 1)  // Bonus for 100% score
+  maxRewardAttempts   Int     @default(3)  // Max times an account can earn rewards (3 = default)
+  allowAnonymous      Boolean @default(true)
+  requiresAccount     Boolean @default(false)
+  maxAttemptsPerDevice Int?   // NULL = unlimited
+  cooldownMinutes     Int?    // Time between attempts
+
+  questions    Question[]
+  attempts     Attempt[]
+  scoreEntries ScoreEntry[]
+  completions  QuizCompletion[]
+  dailyStats   QuizDailyStats[]
+
+  createdAt   DateTime   @default(now())
+  updatedAt   DateTime   @updatedAt
+  publishedAt DateTime?
+}
+
+model Question {
+  id         String   @id @default(cuid())
+  quizPostId String
+  quizPost   QuizPost @relation(fields: [quizPostId], references: [id], onDelete: Cascade)
+
+  order      Int
+  text       String
+  type       String   @default("MULTIPLE_CHOICE")
+  points     Int      @default(1)
+
+  choices    Choice[]
+  answers    Answer[]
+
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@unique([quizPostId, order])
+  @@index([quizPostId])
+}
+
+model Choice {
+  id         String   @id @default(cuid())
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  order      Int
+  text       String
+  isCorrect  Boolean  @default(false)
+
+  answers    Answer[]
+
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@unique([questionId, order])
+  @@index([questionId])
+  @@index([questionId, isCorrect])
+}
+
+model Attempt {
+  id         String   @id @default(cuid())
+
+  quizPostId String
+  quizPost   QuizPost @relation(fields: [quizPostId], references: [id], onDelete: Cascade)
+
+  // SHA-256(anon_device_id + DEVICE_ID_PEPPER)
+  deviceHash String
+
+  playerName String
+  playerEmail String?
+  accountId  String?  // Central account system ID
+  
+  // Additional tracking
+  isAnonymous          Boolean  @default(false)
+  completionPercentage Decimal? @default(0) @db.Decimal(5, 2)
+  timeSpentSeconds     Int?
+  questionsAnswered    Int      @default(0)
+  correctAnswers       Int      @default(0)
+  rewardsGranted       Boolean  @default(false)
+  sessionId            String?
+  platform             String?
+  referrer             String?
+
+  createdAt   DateTime  @default(now())
+  startedAt   DateTime  @default(now())
+  finishedAt  DateTime?
+  updatedAt   DateTime  @updatedAt
+
+  score     Int @default(0)
+  maxScore  Int @default(0)
+
+  answers     Answer[]
+  scoreEntry  ScoreEntry?
+  completion  QuizCompletion?
+
+  @@index([quizPostId, createdAt])
+  @@index([quizPostId, deviceHash])
+  @@index([deviceHash])
+  @@index([accountId])
+}
+
+model Answer {
+  id         String   @id @default(cuid())
+
+  attemptId  String
+  attempt    Attempt  @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+
+  questionId String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+
+  choiceId String?
+  selectedChoice   Choice? @relation(fields: [choiceId], references: [id], onDelete: SetNull)
+
+  createdAt  DateTime @default(now())
+  updatedAt  DateTime @updatedAt
+
+  @@index([attemptId])
+  @@index([questionId])
+  @@index([choiceId])
+}
+
+model ScoreEntry {
+  id         String   @id @default(cuid())
+
+  quizPostId String
+  quizPost   QuizPost @relation(fields: [quizPostId], references: [id], onDelete: Cascade)
+
+  attemptId  String   @unique
+  attempt    Attempt  @relation(fields: [attemptId], references: [id], onDelete: Cascade)
+
+  deviceHash String
+  accountId  String?  // Central account system ID
+
+  name      String
+  email     String
+  emailHash String
+
+  score    Int
+  maxScore Int
+
+  createdAt DateTime @default(now())
+
+  @@index([quizPostId, createdAt])
+  @@index([quizPostId, deviceHash])
+  @@index([quizPostId, emailHash])
+  @@index([deviceHash])
+  @@index([emailHash])
+  @@index([accountId])
+}
+
+// First-time completion tracking for bonus rewards
+model QuizCompletion {
+  id          String   @id @default(cuid())
+  
+  quizPostId  String
+  quizPost    QuizPost @relation(fields: [quizPostId], references: [id], onDelete: Cascade)
+  
+  deviceHash  String
+  accountId   String?  // NULL for anonymous plays
+  
+  // First completion tracking
+  isFirstForDevice  Boolean @default(true)
+  isFirstForAccount Boolean @default(true)
+  isFullMarks       Boolean @default(false)  // 100% correct answers
+  
+  // Reward info
+  baseCoins         Int     @default(0)
+  baseXp            Int     @default(0)
+  baseTokens        Int     @default(0)
+  multiplierApplied Decimal @default(1.0) @db.Decimal(3, 1)
+  totalCoins        Int     @default(0)
+  totalXp           Int     @default(0)
+  totalTokens       Int     @default(0)
+  rewardsClaimed    Boolean @default(false)
+  
+  // Attempt reference
+  attemptId   String?  @unique
+  attempt     Attempt? @relation(fields: [attemptId], references: [id], onDelete: SetNull)
+  
+  // Score info
+  score            Int     @default(0)
+  maxScore         Int     @default(0)
+  percentage       Decimal @default(0) @db.Decimal(5, 2)
+  timeSpentSeconds Int?
+  
+  completedAt DateTime @default(now())
+  createdAt   DateTime @default(now())
+  
+  @@unique([quizPostId, deviceHash])
+  @@index([accountId])
+  @@index([deviceHash])
+  @@index([completedAt])
+  @@index([rewardsClaimed])
+}
+
+// Analytics events for detailed tracking
+model QuizAnalyticsEvent {
+  id          String   @id @default(cuid())
+  
+  eventType   String   // 'quiz_start', 'quiz_complete', 'question_answer', etc.
+  eventData   Json     @default("{}")
+  
+  quizPostId  String?
+  attemptId   String?
+  questionId  String?
+  
+  deviceHash  String
+  accountId   String?
+  sessionId   String?
+  
+  // Context
+  platform    String?
+  referrer    String?
+  userAgent   String?
+  
+  timestamp   DateTime @default(now())
+  createdAt   DateTime @default(now())
+  
+  @@index([eventType])
+  @@index([quizPostId])
+  @@index([deviceHash])
+  @@index([accountId])
+  @@index([timestamp])
+}
+
+// Suspicious activity detection
+model SuspiciousActivity {
+  id            String   @id @default(cuid())
+  
+  activityType  String   // 'multi_account', 'rapid_attempts', 'reward_farming'
+  severity      String   @default("low")  // 'low', 'medium', 'high'
+  details       Json     @default("{}")
+  
+  deviceHash    String
+  accountIds    String[] @default([])
+  
+  resolved      Boolean   @default(false)
+  resolvedBy    String?
+  resolvedAt    DateTime?
+  resolution    String?
+  
+  detectedAt    DateTime @default(now())
+  createdAt     DateTime @default(now())
+  
+  @@index([deviceHash])
+  @@index([resolved])
+  @@index([severity])
+  @@index([detectedAt])
+}
+
+// Daily aggregates for fast analytics
+model QuizDailyStats {
+  id          String   @id @default(cuid())
+  
+  quizPostId  String
+  quizPost    QuizPost @relation(fields: [quizPostId], references: [id], onDelete: Cascade)
+  
+  date        DateTime @db.Date
+  
+  totalAttempts        Int @default(0)
+  uniqueDevices        Int @default(0)
+  uniqueAccounts       Int @default(0)
+  anonymousPlays       Int @default(0)
+  completions          Int @default(0)
+  firstTimeCompletions Int @default(0)
+  
+  totalScore        Int     @default(0)
+  avgScore          Decimal @default(0) @db.Decimal(5, 2)
+  avgCompletionPct  Decimal @default(0) @db.Decimal(5, 2)
+  avgTimeSeconds    Int?
+  
+  totalCoinsGranted Int @default(0)
+  totalXpGranted    Int @default(0)
+  
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  
+  @@unique([quizPostId, date])
+  @@index([date])
+}

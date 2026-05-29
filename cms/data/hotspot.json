@@ -1,0 +1,29 @@
+{
+  "blockSets": [],
+  "footer": {
+    "icons": [],
+    "styles": {
+      "footerBackground": "rgba(33, 37, 41, 1)",
+      "iconColor": "rgba(0, 0, 0, 0)",
+      "textColor": "rgba(0, 0, 0, 0)"
+    }
+  },
+  "editorsPicks": [],
+  "discovery": [],
+  "playAndWin": {
+    "bannerImage": null,
+    "titleBosnian": "",
+    "titleEnglish": "",
+    "subtitleBosnian": "",
+    "subtitleEnglish": "",
+    "link": ""
+  },
+  "utilities": {
+    "cityName": "",
+    "baseCurrency": "",
+    "timezone": "",
+    "latitude": "",
+    "longitude": "",
+    "targetCurrencies": ""
+  }
+}

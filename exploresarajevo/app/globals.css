@@ -1,0 +1,173 @@
+@import "tailwindcss";
+
+/* ──────────────────────────────────────────────────────────
+   Explore Sarajevo — Saraya Design System
+   Dark, sleek, violet-accented — matching sarayasolutions.com
+   ────────────────────────────────────────────────────────── */
+
+:root {
+  /* ── Backgrounds ── */
+  --bg-base:    #09090f;   /* deepest background */
+  --bg-surface: #0f0f1a;   /* cards, panels */
+  --bg-raised:  #141420;   /* elevated elements */
+  --bg-border:  #1e1e2e;   /* subtle borders */
+  --bg-muted:   #252535;   /* muted fills */
+
+  /* ── Text ── */
+  --text-primary:   #f8f8ff;
+  --text-secondary: #a0a0b8;
+  --text-muted:     #5a5a72;
+
+  /* ── Violet accent (primary) ── */
+  --violet:       #7c3aed;   /* violet-600 */
+  --violet-light: #8b5cf6;   /* violet-500 */
+  --violet-glow:  #a78bfa;   /* violet-400 */
+  --violet-soft:  rgba(124, 58, 237, 0.15);
+  --violet-border: rgba(124, 58, 237, 0.35);
+
+  /* ── Purple accent (secondary) ── */
+  --purple:       #9333ea;
+  --purple-light: #a855f7;
+
+  /* ── Status ── */
+  --success: #10b981;
+  --danger:  #ef4444;
+  --warning: #f59e0b;
+
+  /* ── Borders ── */
+  --border:      #1e1e2e;
+  --border-soft: #16162a;
+}
+
+@theme inline {
+  --color-background: var(--bg-base);
+  --color-foreground: var(--text-primary);
+  --color-surface: var(--bg-surface);
+  --color-muted: var(--text-muted);
+  --color-border: var(--border);
+  --color-accent: var(--violet);
+}
+
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  color-scheme: dark only;
+}
+
+body {
+  background: var(--bg-base);
+  color: var(--text-primary);
+  font-family: var(--font-inter), ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
+/* ─── Scrollbars ─── */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+.thin-scroll::-webkit-scrollbar { height: 4px; width: 4px; }
+.thin-scroll::-webkit-scrollbar-track { background: transparent; }
+.thin-scroll::-webkit-scrollbar-thumb { background: var(--bg-muted); border-radius: 999px; }
+
+/* ─── Backwards-compat helpers ─── */
+.custom-scroll::-webkit-scrollbar { height: 0px; }
+.custom-scroll { -ms-overflow-style: none; scrollbar-width: none; }
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* ─── Violet glow utility ─── */
+.glow-violet {
+  box-shadow: 0 0 40px rgba(124, 58, 237, 0.25), 0 0 80px rgba(124, 58, 237, 0.1);
+}
+.glow-violet-sm {
+  box-shadow: 0 0 20px rgba(124, 58, 237, 0.2);
+}
+
+/* ─── Gradient text ─── */
+.gradient-text {
+  background: linear-gradient(135deg, #a78bfa 0%, #7c3aed 50%, #c084fc 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* ─── Image hover zoom ─── */
+.zoom-on-hover img,
+.zoom-on-hover .zoom-target {
+  transition: transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.zoom-on-hover:hover img,
+.zoom-on-hover:hover .zoom-target {
+  transform: scale(1.04);
+}
+
+/* ─── Prose for rich text ─── */
+.prose-saraya {
+  color: var(--text-secondary);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+.prose-saraya h1,
+.prose-saraya h2,
+.prose-saraya h3 {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+.prose-saraya h1 { font-size: 1.75rem; margin: 1rem 0 0.75rem; line-height: 1.2; }
+.prose-saraya h2 { font-size: 1.375rem; margin: 1.25rem 0 0.5rem; line-height: 1.3; }
+.prose-saraya h3 { font-size: 1.125rem; margin: 1rem 0 0.5rem; line-height: 1.4; }
+.prose-saraya p { margin-bottom: 0.875rem; }
+.prose-saraya a { color: var(--violet-glow); text-decoration: underline; text-underline-offset: 3px; }
+.prose-saraya a:hover { color: #c4b5fd; }
+.prose-saraya ul, .prose-saraya ol { margin: 0 0 0.875rem 1.25rem; padding-left: 0.5rem; }
+.prose-saraya ul { list-style: disc; }
+.prose-saraya ol { list-style: decimal; }
+.prose-saraya li { margin-bottom: 0.25rem; }
+.prose-saraya blockquote {
+  border-left: 3px solid var(--violet);
+  padding: 0.25rem 0 0.25rem 1rem;
+  margin: 1rem 0;
+  color: var(--text-muted);
+  font-style: italic;
+}
+.prose-saraya hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.prose-saraya strong { font-weight: 600; color: var(--text-primary); }
+
+/* Legacy .prose alias */
+.prose h1 { font-size: 1.75rem; font-weight: 600; margin-top: 0; margin-bottom: 0.75rem; line-height: 1.2; color: var(--text-primary); }
+.prose h2 { font-size: 1.375rem; font-weight: 600; margin-top: 1.25rem; margin-bottom: 0.5rem; line-height: 1.3; color: var(--text-primary); }
+.prose h3 { font-size: 1.125rem; font-weight: 600; margin-top: 1rem; margin-bottom: 0.5rem; line-height: 1.4; color: var(--text-primary); }
+.prose p { margin-bottom: 0.75rem; line-height: 1.7; color: var(--text-secondary); }
+.prose ul, .prose ol { margin-bottom: 0.75rem; padding-left: 1.5rem; }
+.prose ul { list-style-type: disc; }
+.prose ol { list-style-type: decimal; }
+.prose li { margin-bottom: 0.25rem; color: var(--text-secondary); }
+.prose blockquote { border-left: 3px solid var(--violet); padding-left: 1rem; margin: 1rem 0; color: var(--text-muted); font-style: italic; }
+.prose hr { border: none; border-top: 1px solid var(--border); margin: 1.5rem 0; }
+.prose strong { font-weight: 600; color: var(--text-primary); }
+.prose em { font-style: italic; }
+
+/* ─── Reward notification ─── */
+@keyframes slide-in {
+  from { transform: translateX(100%); opacity: 0; }
+  to   { transform: translateX(0);    opacity: 1; }
+}
+.animate-slide-in { animation: slide-in 0.3s ease-out; }
+
+/* ─── Shimmer skeleton ─── */
+@keyframes shimmer {
+  0%   { background-position: -200% 0; }
+  100% { background-position:  200% 0; }
+}
+.shimmer {
+  background: linear-gradient(90deg, var(--bg-surface) 0%, var(--bg-raised) 50%, var(--bg-surface) 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.6s infinite;
+}
+
+/* ─── Violet gradient border helper ─── */
+.violet-border {
+  border: 1px solid var(--violet-border);
+}

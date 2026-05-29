@@ -1,0 +1,367 @@
+{
+  "global": {
+    "backgroundColor": "rgba(10, 10, 15, 1)",
+    "primaryColor": "rgba(139, 92, 246, 1)",
+    "secondaryColor": "rgba(167, 139, 250, 1)"
+  },
+  "heroVideos": [
+    {
+      "id": "video-1766417842771-ebtor66cu",
+      "videoFile": "/uploads/videos/1766417846390-173pdb-Untitled-design--1-.mp4",
+      "videoFileAlt": "",
+      "thumbnail": "/uploads/images/1766417892825-aq4pyn-Screenshot-4.jpg",
+      "titleBosnian": "POVEŽI SE I\nISTRAŽI PONUDE",
+      "titleEnglish": "CONNECT AND\nEXPLORE OFFERS",
+      "subtitleBosnian": "",
+      "subtitleEnglish": "",
+      "buttonTextBosnian": "ISTRAŽI",
+      "buttonTextEnglish": "EXPLORE",
+      "buttonLink": "https://sarayasolutions.com"
+    }
+  ],
+  "chips": [
+    {
+      "id": "1",
+      "nameBosnian": "Istraži Sarajevo",
+      "nameEnglish": "Explore Sarajevo",
+      "link": "https://bihdiscovery.com",
+      "icon": "MapPin"
+    },
+    {
+      "id": "2",
+      "nameBosnian": "Pametno odabrano",
+      "nameEnglish": "Smart Picks",
+      "link": "https://pametnoodabrano.com",
+      "icon": "Sparkles"
+    },
+    {
+      "id": "3",
+      "nameBosnian": "Quiz",
+      "nameEnglish": "Quiz",
+      "link": "https://quiz.saraya.solutions",
+      "icon": "Gamepad2"
+    },
+    {
+      "id": "4",
+      "nameBosnian": "Reward Center",
+      "nameEnglish": "Reward Center",
+      "link": "https://rewards.saraya.solutions",
+      "icon": "Tag"
+    }
+  ],
+  "heroBanners": [
+    {
+      "id": "1",
+      "imageFile": "/uploads/images/1766407236180-po8ih9-46975.jpg",
+      "titleBosnian": "Saraya Solutions",
+      "titleEnglish": "Saraya Solutions",
+      "subtitleBosnian": "Your smart solutions",
+      "subtitleEnglish": "Your smart solutions",
+      "buttonTextBosnian": "POGLEDAJ PONUDU",
+      "buttonTextEnglish": "VIEW OFFER",
+      "buttonLink": "#offers"
+    },
+    {
+      "id": "banner-1766413447775-s80r5lc6j",
+      "imageFile": "/uploads/images/1766413482025-2wvln0-Untitled-design.jpg",
+      "titleBosnian": "Saraya Solutions",
+      "titleEnglish": "Saraya Solutions",
+      "subtitleBosnian": "Your smart solutions",
+      "subtitleEnglish": "Your smart solutions",
+      "buttonTextBosnian": "POGLEDAJ",
+      "buttonTextEnglish": "VIEW",
+      "buttonLink": "#"
+    },
+    {
+      "id": "banner-1766413562964-hckpeauxo",
+      "imageFile": "/uploads/images/1766413588683-issxok-Untitled-design--1-.jpg",
+      "titleBosnian": "FUKA",
+      "titleEnglish": "FUKA",
+      "subtitleBosnian": "Specialty Coffee & Smart Food",
+      "subtitleEnglish": "Specialty Coffee & Smart Food",
+      "buttonTextBosnian": "POGLEDAJ",
+      "buttonTextEnglish": "VIEW",
+      "buttonLink": "#"
+    },
+    {
+      "id": "banner-1766413670542-u0ojjk6rw",
+      "imageFile": "/uploads/images/1766413687619-226655-Untitled-design.png",
+      "titleBosnian": "Coca-Cola",
+      "titleEnglish": "Coca-Cola",
+      "subtitleBosnian": "The holidays are here",
+      "subtitleEnglish": "The holidays are here",
+      "buttonTextBosnian": "POGLEDAJ",
+      "buttonTextEnglish": "VIEW",
+      "buttonLink": "#"
+    }
+  ],
+  "blockSets": [
+    {
+      "id": "1",
+      "blocks": [
+        {
+          "id": "1",
+          "imageFile": "/assets/blocks/coca_cola_toast.jpg",
+          "title": "Coca-Cola",
+          "description": "Taste the feeling",
+          "buttonTextBosnian": "POGLEDAJ",
+          "buttonTextEnglish": "VIEW",
+          "buttonLink": "https://www.coca-colacompany.com/"
+        },
+        {
+          "id": "2",
+          "imageFile": "/assets/blocks/pandorina_kutija.png",
+          "title": "Pandora",
+          "description": "Dajemo glas ljubavi ljudi",
+          "buttonTextBosnian": "POGLEDAJ",
+          "buttonTextEnglish": "VIEW",
+          "buttonLink": "#"
+        },
+        {
+          "id": "3",
+          "imageFile": "/assets/blocks/Bingo_City_Centar.jpg",
+          "title": "Bingo",
+          "description": "Kralj dobrih cijena",
+          "buttonTextBosnian": "POGLEDAJ",
+          "buttonTextEnglish": "VIEW",
+          "buttonLink": "#"
+        },
+        {
+          "id": "4",
+          "imageFile": "/assets/blocks/carlsberg_toast.jpg",
+          "title": "Carlsberg",
+          "description": "Carlsberg se obavezuje na kontinuirano unapređenje i postizanje sve boljeg kvaliteta piva",
+          "buttonTextBosnian": "POGLEDAJ",
+          "buttonTextEnglish": "VIEW",
+          "buttonLink": "#"
+        },
+        {
+          "id": "5",
+          "imageFile": "/assets/blocks/aria_mall.jpeg",
+          "title": "ARIA",
+          "description": "Savršen poklon za svaku priliku!",
+          "buttonTextBosnian": "POGLEDAJ",
+          "buttonTextEnglish": "VIEW",
+          "buttonLink": "#"
+        },
+        {
+          "id": "6",
+          "imageFile": "/assets/blocks/redbulldrink.jpg",
+          "title": "Red Bull",
+          "description": "Daje ti krila",
+          "buttonTextBosnian": "POGLEDAJ",
+          "buttonTextEnglish": "VIEW",
+          "buttonLink": "#"
+        }
+      ],
+      "styling": {
+        "blockBackground": "rgba(26, 26, 36, 1)",
+        "titleColor": "rgba(255, 255, 255, 1)",
+        "descriptionColor": "rgba(156, 163, 175, 1)",
+        "buttonBackground": "rgba(139, 92, 246, 1)",
+        "buttonTextColor": "rgba(255, 255, 255, 1)"
+      }
+    }
+  ],
+  "editorsPicks": [
+    {
+      "id": "1",
+      "titleBosnian": "iPhone 17 Pro Max",
+      "titleEnglish": "iPhone 17 Pro Max",
+      "teaserBosnian": "iPhone 17 Pro Max predstavlja vrhunac modernog dizajna i tehnoloških inovacija u kategoriji pametnih uređaja. Ovaj uređaj je pažljivo dizajniran kako bi zadovoljio potrebe najzahtjevnijih korisnika, kombinirajući snažne performanse sa elegantnim dizajnom",
+      "teaserEnglish": "iPhone 17 Pro Max represents the pinnacle of modern design and technological innovation in the category of smart devices. This device has been carefully designed to meet the needs of the most demanding users, combining powerful performance with an elegant design",
+      "imageFile": "/uploads/images/1766418158511-cj4aos-1765969114790-698130658-iPhone-17-mockup-e17483488.png",
+      "link": "https://pametnoodabrano.com/products/iphone-17-pro-max"
+    },
+    {
+      "id": "2",
+      "titleBosnian": "AirPods Pro 3",
+      "titleEnglish": "AirPods Pro 3",
+      "teaserBosnian": "Kada je u pitanju audio oprema, AirPods Pro 3 postavlja nove standarde kvalitete zvuka i dizajna. Ovaj proizvod je rezultat godina istraživanja i razvoja, s ciljem da pruži audiofili i casual slušaocima podjednako zadovoljavajuće iskustvo. Sa Bluetooth 5.3, zvuk je kristalno čist, sa dubokim basovima i preciznim visokim tonovima koji oživljavaju svaku nijansu vaše omiljene muzike.",
+      "teaserEnglish": "When it comes to audio equipment, AirPods Pro 3 sets new standards in sound quality and design. This product is the result of years of research and development, with the aim of providing audiophiles and casual listeners alike with a satisfying experience. With Bluetooth 5.3, the sound is crystal clear, with deep bass and precise highs that bring every nuance of your favorite music to life.",
+      "imageFile": "/uploads/images/1766418299417-6az7gx-1765892986151-255586759-airpods-pro-3.jpeg",
+      "link": "https://pametnoodabrano.com/products/airpods-pro-3"
+    },
+    {
+      "id": "3",
+      "titleBosnian": "Samsung Neo QLED 8K",
+      "titleEnglish": "Samsung Neo QLED 8K",
+      "teaserBosnian": "Samsung Neo QLED 8K redefinira što očekujemo od vizualne tehnologije. Sa 85\" 8K Neo QLED, ovaj proizvod pruža vizualni doživljaj koji ostavlja bez daha. Svaki piksel je optimiziran za maksimalnu jasnoću i živopisnost boja.",
+      "teaserEnglish": "The Samsung Neo QLED 8K redefines what we expect from visual technology. With an 85\" 8K Neo QLED, this product delivers a breathtaking visual experience. Every pixel is optimized for maximum clarity and vivid colors.",
+      "imageFile": "/uploads/images/1766418355181-n3gkc3-1765893361020-262260164-Samsung-Neo-QLED-8k.jpg",
+      "link": "https://pametnoodabrano.com/products/samsung-neo-qled-8k"
+    },
+    {
+      "id": "1766418574692",
+      "titleBosnian": "ROG Phone 9 Pro",
+      "titleEnglish": "ROG Phone 9 Pro",
+      "teaserBosnian": "ROG Phone 9 Pro predstavlja vrhunac modernog dizajna i tehnoloških inovacija u kategoriji pametnih uređaja. Ovaj uređaj je pažljivo dizajniran kako bi zadovoljio potrebe najzahtjevnijih korisnika, kombinirajući snažne performanse sa elegantnim dizajnom. Zahvaljujući 6.78\" AMOLED 185Hz, ROG Phone 9 Pro nudi iskustvo koje će transformirati način na koji koristite tehnologiju u svakodnevnom životu.",
+      "teaserEnglish": "ROG Phone 9 Pro represents the pinnacle of modern design and technological innovation in the smartphone category. This device has been carefully designed to meet the needs of the most demanding users, combining powerful performance with elegant design. Thanks to a 6.78\" AMOLED 185Hz display, ROG Phone 9 Pro offers an experience that will transform the way you use technology in your daily life.",
+      "imageFile": "/uploads/images/1766418616055-olzmzf-1765893361020-262260164-Samsung-Neo-QLED-8k.jpg",
+      "link": "https://pametnoodabrano.com/products/rog-phone-9-pro"
+    },
+    {
+      "id": "1766418649114",
+      "titleBosnian": "Logitech MX Master 3S",
+      "titleEnglish": "Logitech MX Master 3S",
+      "teaserBosnian": "Periferije čine razliku između dobrog i odličnog korisničkog iskustva, i Logitech MX Master 3S je dokaz toga. Ovaj proizvod je dizajniran sa jednim ciljem – pružiti vam maksimalnu kontrolu i udobnost u svakom trenutku korištenja. 8K DPI senzor osigurava preciznost i odzivnost koja će zadovoljiti čak i najprofesionalnije korisnike.",
+      "teaserEnglish": "Peripherals make the difference between a good and a great user experience, and the Logitech MX Master 3S is proof of that. This product is designed with one goal in mind – to give you maximum control and comfort at every moment of use. The 8K DPI sensor ensures precision and responsiveness that will satisfy even the most professional users.",
+      "imageFile": "/uploads/images/1766418672451-wi5bg8-1765893806810-66582559-MX-Master-3S-hero.webp",
+      "link": "https://pametnoodabrano.com/products/logitech-mx-master-3s"
+    }
+  ],
+  "discovery": {
+    "places": [
+      {
+        "id": "1",
+        "nameBosnian": "Hotel Evropa",
+        "nameEnglish": "Hotel Evropa",
+        "categoryBosnian": "Accommodation",
+        "categoryEnglish": "Accommodation",
+        "imageFile": "/uploads/images/1766418846977-gg7j1r-1763378763497-443190760-hotelEvropa--1-.webp",
+        "link": "https://bihdiscovery.com/hotel-europe"
+      },
+      {
+        "id": "2",
+        "nameBosnian": "NLB Banka Ferhadija",
+        "nameEnglish": "NLB Banka Ferhadija",
+        "categoryBosnian": "Practical & Services",
+        "categoryEnglish": "Practical & Services",
+        "imageFile": "/uploads/images/1766418959117-0pd3iq-1764242831619-329683903-38319-nlb-1-f.webp",
+        "link": "https://bihdiscovery.com/category/prakticno-usluge"
+      },
+      {
+        "id": "3",
+        "nameBosnian": "Pandora Ferhadija",
+        "nameEnglish": "Pandora Ferhadija",
+        "categoryBosnian": "Shopping",
+        "categoryEnglish": "Shopping",
+        "imageFile": "/uploads/images/1766419530229-bid4z4-1764242996088-54369150-pandorajewelry.webp",
+        "link": "https://bihdiscovery.com/pandora-ferhadija"
+      },
+      {
+        "id": "1766419579854",
+        "nameBosnian": "Akademija likovnih umjetnosti",
+        "nameEnglish": "Academy of Fine Arts",
+        "categoryBosnian": "Culture & History",
+        "categoryEnglish": "Culture & History",
+        "imageFile": "/uploads/images/1766419636961-tv2acn-akademija-likovnih-umjetnosti-1588839918.jpg",
+        "link": "https://bihdiscovery.com/attractions/akademija-likovnih-umjetnosti"
+      }
+    ]
+  },
+  "playAndWin": {
+    "titleBosnian": "Flappy Bird",
+    "titleEnglish": "Flappy Bird",
+    "subtitleBosnian": "Igraj odmah - bez registracije",
+    "subtitleEnglish": "Play instantly - no signup",
+    "imageFile": "/assets/playandwin/flappybird.png",
+    "link": "https://saraya.games/"
+  },
+  "utilities": {
+    "city": "Sarajevo",
+    "lat": 43.8563,
+    "lon": 18.4131,
+    "baseCurrency": "EUR",
+    "targetCurrencies": [
+      "BAM",
+      "USD"
+    ]
+  },
+  "footer": {
+    "icons": [
+      {
+        "id": "1",
+        "name": "NLB Banka",
+        "url": "#",
+        "icon": "/assets/blocks/icons/Nova_Ljubljanska_banka_logo.svg.png"
+      },
+      {
+        "id": "2",
+        "name": "Bingo",
+        "url": "#",
+        "icon": "/assets/blocks/icons/Bingo1.png"
+      }
+    ],
+    "styling": {
+      "footerBackground": "rgba(18, 18, 26, 1)",
+      "iconColor": "rgba(255, 255, 255, 1)",
+      "textColor": "rgba(255, 255, 255, 1)"
+    }
+  },
+  "games": [
+    {
+      "id": "game-1766411045908-pjcstbolx",
+      "titleBosnian": "Flappy Bird",
+      "titleEnglish": "Flappy Bird",
+      "descriptionBosnian": "",
+      "descriptionEnglish": "",
+      "icon": "Gamepad2",
+      "color": "violet",
+      "difficulty": "medium",
+      "players": "1",
+      "link": "https://saraya.games/",
+      "featured": true,
+      "imageFile": "/uploads/images/1766411126758-rhmr6v-flappybird--1-.png"
+    },
+    {
+      "id": "game-1766411152791-8gvx7pz41",
+      "titleBosnian": "Space Adventure",
+      "titleEnglish": "Space Adventure",
+      "descriptionBosnian": "",
+      "descriptionEnglish": "",
+      "icon": "Gamepad2",
+      "color": "violet",
+      "difficulty": "easy",
+      "players": "1",
+      "link": "https://webgames.sarayasolutions.com/spaceA/",
+      "featured": false,
+      "imageFile": "/uploads/images/1766411162460-rs6phj-game1.jpeg"
+    }
+  ],
+  "newsCarousel": [
+    {
+      "id": "cta-1766422033394",
+      "textBosnian": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean",
+      "textEnglish": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean",
+      "chips": [
+        {
+          "id": "chip-1766422062614",
+          "labelBosnian": "Novo",
+          "labelEnglish": "New"
+        }
+      ],
+      "link": "https://rewards.saraya.solutions",
+      "isDraft": false,
+      "imageFile": "/uploads/images/1766422674443-mgidvn-Untitled-design.png"
+    },
+    {
+      "id": "cta-1766422139136",
+      "iconName": "Star",
+      "textBosnian": "Aenean.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "textEnglish": "Aenean.Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "chips": [
+        {
+          "id": "chip-1766422173438",
+          "labelBosnian": "Staro",
+          "labelEnglish": "Old"
+        }
+      ],
+      "link": "https://bihdiscovery.com"
+    },
+    {
+      "id": "cta-1766422190946",
+      "iconName": "Sparkles",
+      "textBosnian": "Aenean. ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "textEnglish": "Aenean. ipsum dolor sit amet, consectetuer adipiscing elit.",
+      "chips": [
+        {
+          "id": "chip-1766422230816",
+          "labelBosnian": "PametnoOdabrano",
+          "labelEnglish": "PametnoOdabrano"
+        }
+      ],
+      "link": "https://pametnoodabrano.com"
+    }
+  ]
+}

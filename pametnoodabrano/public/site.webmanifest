@@ -1,0 +1,9 @@
+{
+  "name": "Saraya - Pametno Odabrano",
+  "short_name": "Pametno Odabrano",
+  "description": "Ekskluzivna kolekcija pažljivo odabranih proizvoda koji spajaju performanse, stil i vrijednost",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#7c3aed"
+}

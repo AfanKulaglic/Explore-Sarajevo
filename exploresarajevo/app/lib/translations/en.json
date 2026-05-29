@@ -1,0 +1,209 @@
+{
+  "common": {
+    "home": "Home",
+    "categories": "Categories",
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "createAccount": "Create Account",
+    "signedInAs": "Signed in as",
+    "loading": "Loading...",
+    "viewAll": "View All",
+    "all": "All",
+    "previous": "Previous",
+    "next": "Next",
+    "noResults": "No results",
+    "readMore": "Read more",
+    "close": "Close",
+    "search": "Search"
+  },
+  "nav": {
+    "home": "Home",
+    "categories": "Categories",
+    "signIn": "Sign In",
+    "signOut": "Sign Out",
+    "createAccount": "Create Account",
+    "signedInAs": "Signed in as",
+    "languageBs": "Bosanski",
+    "languageEn": "English",
+    "switchLanguage": "Change language"
+  },
+  "hero": {
+    "tagline": "Discover the spirit of Sarajevo — find places, cafés, and hidden gems all around you.",
+    "activities": "Activities",
+    "events": "Events",
+    "foodDrinks": "Food & Drinks",
+    "accommodation": "Accommodation",
+    "health": "Health"
+  },
+  "sections": {
+    "categories": "Categories",
+    "featured": "Featured",
+    "highlights": "Highlighted Places",
+    "attractiveLocations": "Featured Attractions",
+    "attractiveLocationsHint": "Attractions you marked for the homepage in the CMS",
+    "attractiveBusinesses": "Featured Businesses",
+    "attractiveBusinessesHint": "Portal businesses not already shown in the hero or highlights rows",
+    "allBusinesses": "All Businesses",
+    "ourMission": "Our Mission",
+    "ourMissionText": "Our mission is to provide the best service and quality to our clients, creating long-term value and sustainable innovation in every area of our work.",
+    "ourPlace": "Our Place",
+    "ourPlaceText": "In the heart of Bosnia and Herzegovina, surrounded by mountains and infused with a spirit of diversity, lies Sarajevo — a city where east and west meet in the most beautiful harmony. This is a place where history breathes on every corner, and modern energy creates new stories every day.",
+    "premiumHighlights": "Premium Highlights",
+    "noBusinessesFound": "No businesses found.",
+    "map": "Map",
+    "exploreOnMap": "Explore on Map",
+    "findLocations": "Find locations that interest you",
+    "visitWebsite": "Visit Website"
+  },
+  "status": {
+    "open": "Open",
+    "closed": "Closed",
+    "openingSoon": "Opening soon"
+  },
+  "footer": {
+    "description": "Explore Sarajevo connects you with the best businesses, attractions, and experiences in Sarajevo — all in one place.",
+    "explore": "Explore",
+    "help": "Help",
+    "legal": "Legal",
+    "contact": "Contact",
+    "aboutUs": "About Us",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "cookies": "Cookies",
+    "allRightsReserved": "All rights reserved.",
+    "designDevelopment": "Design & Development"
+  },
+  "contact": {
+    "pageTitle": "Contact Us",
+    "pageSubtitle": "We're here to help you",
+    "description": "Explore Sarajevo connects you with the best businesses, attractions, and experiences in Sarajevo — all in one place, clearly organized and tailored for both tourists and locals who want to discover something new in their city.",
+    "email": "Email",
+    "address": "Address",
+    "workingHours": "Working Hours",
+    "weekdays": "Monday - Friday",
+    "weekend": "Saturday - Sunday",
+    "closed": "Closed",
+    "followUs": "Follow Us",
+    "features": {
+      "whyChooseUs": "Why Choose Us?",
+      "findBestPlaces": "Find the Best Places",
+      "findBestPlacesDesc": "Find the best locations in Sarajevo with detailed information and directions on how to get there.",
+      "easyNavigation": "Easy Navigation",
+      "easyNavigationDesc": "Intuitive map and filters help you quickly find exactly what you're looking for.",
+      "localBusinesses": "Local Businesses",
+      "localBusinessesDesc": "Support the local economy by discovering authentic Sarajevo businesses and services."
+    },
+    "contactForm": {
+      "title": "Send Us a Message",
+      "name": "Full Name",
+      "namePlaceholder": "Your name",
+      "email": "Email Address",
+      "emailPlaceholder": "you@email.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "What's this about?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us the details...",
+      "send": "Send Message",
+      "sending": "Sending..."
+    }
+  },
+  "about": {
+    "pageTitle": "About Us",
+    "pageSubtitle": "Discover Sarajevo in a completely new way",
+    "welcome": "Welcome to Explore Sarajevo",
+    "description1": "Explore Sarajevo is a digital platform that connects you with the best businesses, attractions, and experiences in the city of Sarajevo. Our mission is to make it easier for you to discover everything this beautiful city has to offer.",
+    "description2": "Whether you're looking for the best restaurants, cafés, cultural events, or hidden gems of the city, Explore Sarajevo is your reliable guide through the rich offerings of the capital of Bosnia and Herzegovina.",
+    "features": {
+      "locations": "Locations",
+      "locationsDesc": "Find the best locations in Sarajevo with detailed information and directions on how to get there.",
+      "businesses": "Businesses",
+      "businessesDesc": "Discover the best businesses in the city, from restaurants to boutiques.",
+      "events": "Events",
+      "eventsDesc": "Stay up to date with the latest events and cultural happenings in Sarajevo."
+    }
+  },
+  "terms": {
+    "pageTitle": "Terms of Use",
+    "pageSubtitle": "Rules for using the Explore Sarajevo platform"
+  },
+  "privacy": {
+    "pageTitle": "Privacy Policy",
+    "pageSubtitle": "Protecting your privacy is important to us"
+  },
+  "cookies": {
+    "pageTitle": "Cookies",
+    "pageSubtitle": "How and why we use cookies on Explore Sarajevo"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "email": "Email",
+    "emailAddress": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "name": "Name",
+    "yourName": "Your name",
+    "forgotPassword": "Forgot password?",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "loginButton": "Log In",
+    "registerButton": "Register",
+    "welcomeBack": "Welcome Back",
+    "signInToAccount": "Sign in to your Saraya account",
+    "signingIn": "Signing in...",
+    "createAccount": "Create Account",
+    "joinCommunity": "Join the Saraya community",
+    "creatingAccount": "Creating account...",
+    "createOne": "Create one",
+    "signIn": "Sign in",
+    "backToHome": "Back to Home",
+    "registrationSuccess": "Registration Successful!",
+    "redirectingToLogin": "Redirecting to login...",
+    "passwordRequirements": {
+      "length": "At least 15 characters",
+      "uppercase": "One uppercase letter",
+      "lowercase": "One lowercase letter",
+      "number": "One number"
+    }
+  },
+  "category": {
+    "viewAll": "View All",
+    "businesses": "Businesses",
+    "attractions": "Attractions",
+    "events": "Events"
+  },
+  "business": {
+    "about": "About",
+    "workingHours": "Working Hours",
+    "address": "Address",
+    "phone": "Phone",
+    "website": "Website",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "writeReview": "Write a Review",
+    "description": "Description",
+    "noDescription": "No description available.",
+    "categoriesAndTypes": "Categories & Types",
+    "allPhotos": "All Photos",
+    "enlarge": "Enlarge",
+    "mainImage": "Main image",
+    "quickInfo": "Quick Info",
+    "openInMaps": "Open in Google Maps",
+    "brand": "Brand",
+    "notFound": "Business not found.",
+    "similarLocations": "Similar Locations",
+    "recommended": "Recommended",
+    "allLocations": "All Locations"
+  },
+  "attraction": {
+    "description": "Description",
+    "noDescription": "No description available.",
+    "photos": "Photos",
+    "allPhotos": "All Photos",
+    "enlarge": "Enlarge",
+    "mainImage": "Main image",
+    "quickInfo": "Quick Info",
+    "notFound": "Attraction not found.",
+    "similarLocations": "Similar Locations"
+  }
+}

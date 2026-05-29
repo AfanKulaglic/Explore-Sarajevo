@@ -1,0 +1,209 @@
+{
+  "common": {
+    "home": "Početna",
+    "categories": "Kategorije",
+    "signIn": "Prijava",
+    "signOut": "Odjava",
+    "createAccount": "Kreiraj račun",
+    "signedInAs": "Prijavljen/a kao",
+    "loading": "Učitavanje...",
+    "viewAll": "Pogledaj sve",
+    "all": "Sve",
+    "previous": "Prethodno",
+    "next": "Sljedeće",
+    "noResults": "Nema rezultata",
+    "readMore": "Pročitaj više",
+    "close": "Zatvori",
+    "search": "Pretraži"
+  },
+  "nav": {
+    "home": "Početna",
+    "categories": "Kategorije",
+    "signIn": "Prijava",
+    "signOut": "Odjava",
+    "createAccount": "Kreiraj račun",
+    "signedInAs": "Prijavljen/a kao",
+    "languageBs": "Bosanski",
+    "languageEn": "English",
+    "switchLanguage": "Promijeni jezik"
+  },
+  "hero": {
+    "tagline": "Otkrij duh Sarajeva — pronađi mjesta, kafiće i skrivene dragulje svuda oko sebe.",
+    "activities": "Aktivnosti",
+    "events": "Događaji",
+    "foodDrinks": "Hrana i Piće",
+    "accommodation": "Smještaj",
+    "health": "Zdravlje"
+  },
+  "sections": {
+    "categories": "Kategorije",
+    "featured": "Preporučeno",
+    "highlights": "Istaknuta mjesta",
+    "attractiveLocations": "Atraktivne lokacije",
+    "attractiveLocationsHint": "Atrakcije koje ste istaknuli za početnu stranicu u CMS-u",
+    "attractiveBusinesses": "Atraktivni biznisi",
+    "attractiveBusinessesHint": "Biznisi na portalu koji nisu u hero ili istaknutim redovima",
+    "allBusinesses": "Svi biznisi",
+    "ourMission": "Naša Misija",
+    "ourMissionText": "Naša misija je pružiti najbolju uslugu i kvalitetu našim klijentima, stvarajući dugoročne vrijednosti i održive inovacije u svakoj oblasti našeg djelovanja.",
+    "ourPlace": "Naše mjesto",
+    "ourPlaceText": "U srcu Bosne i Hercegovine, okruženo planinama i prožeto duhom različitosti, nalazi se Sarajevo – grad u kojem se istok i zapad susreću u najljepšoj harmoniji. Ovo je mjesto gdje historija diše na svakom uglu, a moderna energija stvara nove priče svakog dana.",
+    "premiumHighlights": "Premium izdvojeno",
+    "noBusinessesFound": "Nema pronađenih biznisa.",
+    "map": "Mapa",
+    "exploreOnMap": "Istražite na mapi",
+    "findLocations": "Pronađite lokacije koje vas zanimaju",
+    "visitWebsite": "Posjeti web stranicu"
+  },
+  "status": {
+    "open": "Otvoreno",
+    "closed": "Zatvoreno",
+    "openingSoon": "Uskoro se otvara"
+  },
+  "footer": {
+    "description": "Explore Sarajevo vas povezuje sa najboljim poslovnicama, atrakcijama i doživljajima u Sarajevu — sve na jednom mjestu.",
+    "explore": "Istraži",
+    "help": "Pomoć",
+    "legal": "Pravno",
+    "contact": "Kontakt",
+    "aboutUs": "O nama",
+    "privacyPolicy": "Politika privatnosti",
+    "termsOfUse": "Uslovi korištenja",
+    "cookies": "Kolačići",
+    "allRightsReserved": "Sva prava zadržana.",
+    "designDevelopment": "Dizajn & razvoj"
+  },
+  "contact": {
+    "pageTitle": "Kontaktirajte nas",
+    "pageSubtitle": "Ovdje smo da vam pomognemo",
+    "description": "Explore Sarajevo vas povezuje sa najboljim poslovnicama, atrakcijama i doživljajima u Sarajevu - na jednom mjestu, jasno organizovano i prilagođeno i za turiste i za lokalce koji žele otkriti nešto novo u svom gradu.",
+    "email": "Email",
+    "address": "Adresa",
+    "workingHours": "Radno vrijeme",
+    "weekdays": "Ponedjeljak - Petak",
+    "weekend": "Subota - Nedjelja",
+    "closed": "Zatvoreno",
+    "followUs": "Pratite nas",
+    "features": {
+      "whyChooseUs": "Zašto izabrati nas?",
+      "findBestPlaces": "Pronađite najbolja mjesta",
+      "findBestPlacesDesc": "Pronađite najbolje lokacije u Sarajevu sa detaljnim informacijama i smjernicama kako do njih doći.",
+      "easyNavigation": "Jednostavna navigacija",
+      "easyNavigationDesc": "Intuitivna mapa i filteri vam pomažu da brzo pronađete tačno ono što tražite.",
+      "localBusinesses": "Lokalni biznisi",
+      "localBusinessesDesc": "Podržite lokalnu ekonomiju otkrivajući autentične sarajevske poslovnice i usluge."
+    },
+    "contactForm": {
+      "title": "Pošaljite nam poruku",
+      "name": "Ime i prezime",
+      "namePlaceholder": "Vaše ime",
+      "email": "Email adresa",
+      "emailPlaceholder": "vas@email.com",
+      "subject": "Predmet",
+      "subjectPlaceholder": "O čemu se radi?",
+      "message": "Poruka",
+      "messagePlaceholder": "Opišite nam detalje...",
+      "send": "Pošalji poruku",
+      "sending": "Šalje se..."
+    }
+  },
+  "about": {
+    "pageTitle": "O nama",
+    "pageSubtitle": "Otkrijte Sarajevo na potpuno novi način",
+    "welcome": "Dobrodošli u Explore Sarajevo",
+    "description1": "Explore Sarajevo je digitalna platforma koja vas povezuje sa najboljim poslovnicama, atrakcijama i iskustvima u gradu Sarajevu. Naša misija je da vam olakšamo otkrivanje svega što ovaj prekrasan grad ima da ponudi.",
+    "description2": "Bilo da tražite najbolje restorane, kafiće, kulturne događaje ili skrivene dragulje grada, Explore Sarajevo je vaš pouzdani vodič kroz bogatu ponudu glavnog grada Bosne i Hercegovine.",
+    "features": {
+      "locations": "Lokacije",
+      "locationsDesc": "Pronađite najbolje lokacije u Sarajevu sa detaljnim informacijama i smjernicama kako do njih doći.",
+      "businesses": "Poslovnice",
+      "businessesDesc": "Otkrijte najbolje poslovnice u gradu, od restorana do butika.",
+      "events": "Događaji",
+      "eventsDesc": "Budite u toku sa najnovijim događajima i kulturnim dešavanjima u Sarajevu."
+    }
+  },
+  "terms": {
+    "pageTitle": "Uslovi korištenja",
+    "pageSubtitle": "Pravila korištenja platforme Explore Sarajevo"
+  },
+  "privacy": {
+    "pageTitle": "Politika privatnosti",
+    "pageSubtitle": "Zaštita vaše privatnosti nam je važna"
+  },
+  "cookies": {
+    "pageTitle": "Kolačići",
+    "pageSubtitle": "Kako i zašto koristimo kolačiće na Explore Sarajevo"
+  },
+  "auth": {
+    "login": "Prijava",
+    "register": "Registracija",
+    "email": "Email",
+    "emailAddress": "Email adresa",
+    "password": "Lozinka",
+    "confirmPassword": "Potvrdi lozinku",
+    "name": "Ime",
+    "yourName": "Vaše ime",
+    "forgotPassword": "Zaboravljena lozinka?",
+    "noAccount": "Nemate račun?",
+    "hasAccount": "Već imate račun?",
+    "loginButton": "Prijavi se",
+    "registerButton": "Registriraj se",
+    "welcomeBack": "Dobrodošli nazad",
+    "signInToAccount": "Prijavite se na vaš Saraya račun",
+    "signingIn": "Prijavljujem...",
+    "createAccount": "Kreiraj račun",
+    "joinCommunity": "Pridružite se Saraya zajednici",
+    "creatingAccount": "Kreiram račun...",
+    "createOne": "Kreirajte ga",
+    "signIn": "Prijavite se",
+    "backToHome": "Nazad na početnu",
+    "registrationSuccess": "Registracija uspješna!",
+    "redirectingToLogin": "Preusmjeravanje na prijavu...",
+    "passwordRequirements": {
+      "length": "Najmanje 15 karaktera",
+      "uppercase": "Jedno veliko slovo",
+      "lowercase": "Jedno malo slovo",
+      "number": "Jedan broj"
+    }
+  },
+  "category": {
+    "viewAll": "Pogledaj sve",
+    "businesses": "Poslovnice",
+    "attractions": "Atrakcije",
+    "events": "Događaji"
+  },
+  "business": {
+    "about": "O nama",
+    "workingHours": "Radno vrijeme",
+    "address": "Adresa",
+    "phone": "Telefon",
+    "website": "Web stranica",
+    "gallery": "Galerija",
+    "reviews": "Recenzije",
+    "writeReview": "Napiši recenziju",
+    "description": "Opis",
+    "noDescription": "Opis nije dostupan.",
+    "categoriesAndTypes": "Kategorije i tipovi",
+    "allPhotos": "Sve slike",
+    "enlarge": "Uvećaj",
+    "mainImage": "Glavna slika",
+    "quickInfo": "Brze informacije",
+    "openInMaps": "Otvori u Google Mapama",
+    "brand": "Brend",
+    "notFound": "Poslovnica nije pronađena.",
+    "similarLocations": "Slične Lokacije",
+    "recommended": "Preporučeno",
+    "allLocations": "Sve lokacije"
+  },
+  "attraction": {
+    "description": "Opis",
+    "noDescription": "Opis nije dostupan.",
+    "photos": "Slike",
+    "allPhotos": "Sve slike",
+    "enlarge": "Uvećaj",
+    "mainImage": "Glavna slika",
+    "quickInfo": "Brze informacije",
+    "notFound": "Atrakcija nije pronađena.",
+    "similarLocations": "Slične Lokacije"
+  }
+}

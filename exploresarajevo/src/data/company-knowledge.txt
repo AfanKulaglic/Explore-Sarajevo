@@ -1,0 +1,886 @@
+# Saraya Connect Ecosystem — Complete Knowledge Base
+> This document describes every user-facing feature, screen, workflow, and
+business aspect of the entire Saraya Connect ecosystem. It covers the WiFi network
+infrastructure, all digital platforms, the unified account and reward system,
+advertising capabilities, and network locations. Written as a chatbot knowledge base
+so the bot can answer any question about what Saraya Connect is, what users can
+do, how things work, and how the products relate to each other.
+---
+## 1. What Is Saraya Connect?
+**Saraya Connect** is an urban digital platform built by **Saraya Solutions** in
+Sarajevo, Bosnia and Herzegovina. It has two interconnected dimensions:
+1. **A city-wide free WiFi network** covering the most frequented locations in
+Sarajevo — from Baščaršija and Ferhadija to Skenderija and Bjelašnica. Every user
+who connects to the network passes through a captive portal, which serves as both a
+gateway to free internet and a high-visibility advertising space.
+2. **A family of connected web applications** — including a quiz platform, a city
+exploration guide, a tech editorial site, a game hub, and a rewards marketplace — all
+linked through a single user account, shared virtual economy, and Single Sign-On
+(SSO).
+### The dual value proposition
+- **For users**: Free internet access at key city locations, plus a digital ecosystem
+where they can earn virtual coins by taking quizzes, exploring local businesses,
+reading articles, and playing games — then redeem those coins for real rewards.
+- **For advertisers/brands**: A guaranteed-attention advertising channel where every
+WiFi user must see the captive portal content. No ad blockers, no skipping, no
+scrolling past. The brand appears at the moment of highest user attention — when
+they are actively connecting to the internet.
+### What makes Saraya Connect unique
+Unlike random digital ads that compete for attention in a crowded feed, Saraya
+Connect captures user attention at a specific, privileged moment — when they are
+actively connecting to WiFi. The captive portal is the only content on screen. The
+user must see it before accessing the internet. This combination of a useful free
+service and high-visibility advertising creates a win-win ecosystem that is rare in
+Bosnia and Herzegovina's urban digital space.
+---
+## 2. The Saraya Connect WiFi Network
+### Network overview
+The Saraya Connect WiFi network covers **seven of Sarajevo's most frequented
+and strategically important locations**. Each location was chosen based on foot
+traffic volume, urban significance, and advertising visibility potential. Together, they
+form a cohesive digital network that follows the flow of urban life in the city.
+### Network locations
+**1. Baščaršija — Sebilj area**
+The heart of Sarajevo's old town and the city's most visited tourist and local hub.
+Enormous daily foot traffic from tourists and residents alike. High mobile device
+engagement.
+**2. Sarači Street**
+One of the busiest pedestrian streets in the city center, lined with cafés, restaurants,
+and shops. High pedestrian flow throughout the entire day.
+**3. Ferhadija Street — extending to Aria Mall**
+The central pedestrian zone connecting the historic core with the modern urban
+center. Covers both traditional and contemporary visitor profiles.
+**4. Zeleni Beretki — Branilaca Sarajeva — Susan Sontag Square — National
+Theatre**
+A cultural-urban avenue passing through some of the city's most important
+institutions and public spaces. High proportion of students, cultural audiences, and
+business visitors.
+**5. Skenderija — plaza, parking areas, Mirza Delibašić Arena, Dom Mladih (Youth
+Center)**
+A cultural and sports complex that attracts diverse audiences — from sporting events
+to concerts and trade fairs. One of the most spacious locations in the network.
+**6. Part of Vilsonovo Šetalište (Wilson's Promenade)**
+A popular riverside promenade along the Miljacka River, favored by joggers, families,
+and casual visitors. The relaxed atmosphere means people tend to stay longer at
+this location.
+**7. Bjelašnica — Babin Do**
+An Olympic mountain serving as a recreational and tourist destination. Distinctly
+seasonal character with high visitor turnover during winter ski season and summer
+outdoor season.
+### Geographic distribution
+The locations span four distinct zones:
+- **Historic core**: Baščaršija (Sebilj), Sarači, Ferhadija to Aria Mall
+- **Cultural and urban zone**: Zeleni Beretki — Branilaca Sarajeva — Susan Sontag
+Square — National Theatre
+- **Cultural-sports hub**: Skenderija complex (plaza, parking, Arena, Youth Center)
+- **Recreational zones**: Vilsonovo Šetalište and Bjelašnica — Babin Do
+### Why these locations?
+The selection is deliberate — each point in the network represents an urban node
+where tourists, locals, students, and business visitors converge. These are places
+where purchasing decisions are made, where leisure time is spent, and where
+brands have the greatest chance of being noticed. From the historic center of
+Baščaršija to the cultural hub of Skenderija and the natural retreat of Bjelašnica —
+Saraya Connect covers the full spectrum of Sarajevo's urban experience.
+---
+## 3. Audience and Reach
+Saraya Connect records engagement metrics directly comparable to premium digital
+media, with one crucial difference — every user is physically present at the location,
+making each advertising contact more meaningful and relevant than any remote
+digital format.
+| Metric | Value | Meaning |
+|---|---|---|
+| **Monthly unique users** | ~300,000 | Individual users connecting to the network
+each month |
+| **Monthly portal views** | ~500,000 | Total views of the captive portal and
+advertising content per month |
+| **Returning users** | 70%+ | More than 70% of users reconnect to the network,
+ensuring repeated ad exposure |
+| **Average session duration** | 2.5–7 minutes | Time users spend on the portal —
+far exceeding the seconds-long exposure of standard display ads |
+### Why returning users matter
+A 70%+ return rate is exceptionally high for any digital medium. An advertiser on
+Saraya Connect does not pay for just one exposure — they pay for building brand
+recognition and frequency with users who regularly return to the same locations. This
+"frequency" component is what transforms a single ad impression into a lasting
+brand impression. Research shows at least 7 brand contacts are needed for
+memorability — Saraya Connect achieves this naturally, without additional
+retargeting costs.
+### Quality of engagement
+An average of 2.5 to 7 minutes on the captive portal far exceeds the average view
+time on standard display ads (typically measured in seconds). A user waiting for
+internet access is willing to spend more time with content, meaning the advertising
+message has a real chance of being read, seen, and absorbed.
+---
+## 4. The Captive Portal
+### What it is
+The captive portal is the first page a user sees the moment they connect to the
+Saraya Connect WiFi network. It is a mandatory entry point — the user cannot
+access the internet without first passing through the portal. This mandatory nature
+makes it an exceptionally powerful advertising space.
+The portal is accessible at: **https://hs.saraya.solutions**
+### How it works (user flow)
+1. **User connects** to the Saraya Connect WiFi network at any of the seven
+locations.
+2. **The portal opens** automatically with a branded "Saraya Connect /
+Connecting…" loading screen.
+3. **Advertising content is displayed** — the user sees branded videos, banners,
+and promotional blocks.
+4. **User gets internet access** and can browse freely, while the portal continues to
+serve as a content hub.
+### Portal design principles
+- **Mobile-first**: Optimized for smartphones, since the vast majority of users
+connect via mobile devices.
+- **Fast loading**: Designed for quick rendering and clean visual presentation.
+- **High engagement**: Layout maximizes user interaction with content.
+### Portal content sections
+Once past the loading screen, users land on a scrollable page with:
+- **Hero area** — Rotating video backgrounds and promotional banners with calls to
+action. Different content on each visit.
+- **Quick Access links** — Horizontal strip of shortcut chips to other Saraya apps
+(Explore Sarajevo, Pametno Odabrano, Quiz, Rewards Center, Play & Win).
+- **City Services** — Live utility widgets:
+- **Weather**: Current conditions, high/low temperatures, and hourly forecast for
+Sarajevo.
+- **Clock & Date**: Live local time display.
+- **Currency Converter**: EUR/USD to BAM (Bosnian Convertible Mark) with live
+exchange rates.
+- **Saraya Connect Updates** — Scrollable news and announcement cards.
+- **Today's Recommended** — Brand and deal tiles with animated text overlays and
+promotional offers.
+- **Smart Choices** — Curated product picks linking to the Pametno Odabrano
+editorial site.
+- **Explore Sarajevo** — Place cards linking to local business and attraction listings.
+- **Play & Win** — Game hub promo card showing available games.
+- **Footer** — Partner names, connectivity status, and links.
+### Games page
+Accessible from the portal, featuring:
+- Filter by difficulty: All, Easy, Medium, Hard.
+- Grid of game cards with difficulty labels and estimated play time (2–5 minutes).
+- Games open in new browser tabs.
+### Language
+The portal supports **Bosnian** and **English** via a toggle in the top bar. Default is
+English.
+### No login required
+The Hotspot portal is designed for anonymous WiFi users and works without any
+account or login. However, if the user already has an active Saraya session from
+logging in on another app, the portal recognizes it silently.
+### Role in the ecosystem
+The captive portal is the **primary entry point** to the entire Saraya Connect
+ecosystem. Many users will first encounter Saraya by connecting to free WiFi. From
+the portal, they can discover and navigate to every other Saraya product — Quiz,
+Explore Sarajevo, Play & Win, Pametno Odabrano, and the Rewards Center.
+---
+## 5. Advertising on Saraya Connect
+### Why Saraya Connect is a valuable advertising channel
+In an era of content overload and declining effectiveness of traditional online ads,
+Saraya Connect offers something fundamentally different: **guaranteed attention,
+physical presence, and contextual relevance**.
+**Key advantages for advertisers:**
+- **Direct contact in physical space** — Ads are shown to people who are physically
+present at a location. This is not an anonymous internet user — it is a person
+standing on Baščaršija, Ferhadija, or Skenderija. That physical localization gives the
+ad contextual credibility that digital formats rarely achieve.
+- **High number of guaranteed views** — 500,000 monthly portal views are
+guaranteed. Every user who connects must pass through the portal. No ad blockers,
+no scrolling past, no bypassing. This is one of the rare digital formats with truly
+guaranteed ad visibility.
+- **Repeated contact with the audience** — 70%+ returning users means the same
+user sees the advertising message multiple times. Frequency is key to brand
+impression — Saraya Connect achieves this naturally, without additional retargeting
+campaign costs.
+- **Repeated contact with the audience** — 70%+ returning users means the same
+user sees the advertising message multiple times. Frequency is key to brand
+impression — Saraya Connect achieves this naturally, without additional retargeting
+campaign costs.
+- **Mobile-first ecosystem** — All formats are natively optimized for mobile devices.
+A format that fits the device feels natural rather than intrusive to the user.
+- **Combined advertising ecosystem** — The ability to combine hero positions with
+rotating blocks within a single campaign gives advertisers a rare luxury: complete
+representation within one platform, without needing to engage multiple media to
+achieve desired reach and frequency.
+- **Sufficient dwell time for impression** — 2.5 to 7 minutes average on the portal is
+enough to read an ad, watch a video, or click a CTA. Longer dwell time is directly
+proportional to advertising message effectiveness — a clear advantage over
+standard display ads.
+### Advertising format inventory
+The captive portal is designed as a multi-layered advertising platform offering
+different positions and formats for brands of all sizes and budgets. The combination
+of hero formats for strong first impressions and rotating blocks for additional
+promotional content enables creating complete campaigns within one ecosystem.
+#### Hero positions (premium, top of portal)
+**1. Hero Video (16:9)**
+The most premium ad format on the portal. Positioned at the very top of the page, it
+is the first thing the user sees in full screen width.
+- Format: 16:9 horizontal video
+- Position: Top of portal, above all other content
+- Best for: Video campaigns, product launches, storytelling, emotionally-driven
+campaigns, seasonal promotions
+- Advantage: The only video content the user sees at the moment of page load
+**2. Hero Banner (3:1)**
+A large-format branded space that dominates the upper portion of the captive portal.
+Its pronounced horizontal form makes it ideal for messages that must be noticed
+immediately.
+- Format: 3:1 horizontal banner
+- Position: Upper section of portal, below header
+- Best for: Branded visuals with logo and slogan, seasonal and sale campaigns,
+click-through campaigns with direct CTA, launch announcements for new locations,
+services, or events
+#### Rotating blocks (dynamic content section)
+Below the hero section sits a system of **six rotating blocks** in three different
+formats, bringing dynamic variety to content display. This system enables
+simultaneous display of multiple advertisers or distribution of multiple messages
+within a single integrated campaign.
+**How the rotation system works:**
+- Six blocks use three different formats
+- Each block can display different content
+- Multiple advertisers can be active simultaneously
+- A single brand can occupy multiple blocks for amplified impact
+- Content rotation increases engagement for returning users
+- The modular architecture enables easy campaign scaling
+**Format A — Vertical Block (9:16)**
+The gold standard of mobile visual content. Adapted to how users hold their phones,
+this format maximizes screen space usage and provides a fully immersive visual
+experience.
+**Format B — Four Square Blocks (1:1 × 4)**
+Four square blocks in 1:1 ratio that can display four different messages, four product
+categories, four visuals from the same campaign, or content from multiple
+advertisers. Rewards creative campaign planning.
+**Format C — Horizontal Block (16:9)**
+A classic but powerful advertising format within the rotating system. Visually
+comfortable, works well for visuals, and ideal for brands wanting consistent
+presence. Brands with existing 16:9 ad materials can use them directly without
+additional adaptation, reducing production costs.
+#### Complete format summary
+| Format | Aspect Ratio | Category | Primary Use |
+|---|---|---|---|
+| Hero Video | 16:9 | Hero position | Video campaigns, launches, storytelling |
+| Hero Banner | 3:1 | Hero position | Branded spaces, sales, CTA messages |
+| Vertical Block | 9:16 | Rotating block | Mobile video, lifestyle, immersive content |
+| Square Blocks | 1:1 × 4 | Rotating block | Modular display, multiple messages or
+brands |
+| Horizontal Block | 16:9 | Rotating block | Promotional banners, visual messages |
+Each format is designed to function independently or as part of an integrated
+campaign, giving advertisers maximum flexibility in planning their media presence on
+the Saraya Connect platform.
+---
+## 6. The Applications in the Ecosystem
+### Overview
+| Application | Domain | Purpose |
+|---|---|---|
+| **Saraya Accounts** | accounts.saraya.solutions | Central identity,
+authentication, and SSO provider |
+| **Saraya Quiz** | quiz.saraya.solutions | Interactive quiz platform with rewards |
+| **Explore Sarajevo** | bihdiscovery.com | Tourism and local business
+discovery guide for Sarajevo |
+| **Pametno Odabrano** | pametnoodabrano.com | Curated tech product editorial
+and review site |
+| **Saraya Connect HS (Hotspot Portal)** | hs.saraya.solutions | Free WiFi
+captive portal and content hub |
+| **Play & Win (Game Hub)** | saraya.games | Browser-based mini-
+game hub with coin/XP rewards |
+| **Rewards Center** | rewards.saraya.solutions | Central rewards
+marketplace, social features, achievements, and leaderboards |
+### Shared economy across all apps
+Every user has a single wallet and progression profile that works across all apps:
+- **Coins** — The primary virtual currency. Earned by playing games, taking
+quizzes, reading articles, exploring places, daily logins, social follows, and more.
+Spent in the Rewards Center catalog on physical items, digital goods, and perks.
+- **Tokens** — A secondary virtual currency. Some Rewards Center items are priced
+in tokens instead of coins.
+- **XP (Experience Points)** — Earned alongside coins in most activities. XP drives
+the user's level.
+- **Level** — A numeric level that increases as XP accumulates. Levels unlock tier
+titles.
+- **Tiers** — Named progression ranks based on level: Explorer (starting),
+Champion, Legend, and Mythic. Tiers appear as badges next to user avatars across
+all apps.
+---
+## 7. Saraya Accounts (Central Identity & SSO)
+### What it is
+Saraya Accounts is the **central identity service** for the entire ecosystem. It works
+behind the scenes to manage authentication, user profiles, and cross-app session
+sharing.
+### User registration
+- Users create an account with **name, email, and password**.
+- Password must be at least **15 characters** long.
+- Upon registration, the system automatically creates a coin wallet, an XP profile
+(starting at level 1 with 0 XP), and enrolls the account in all platform services (Quiz,
+Hotspot, Explore, Rewards Center, Games, Pametno Odabrano, etc.).
+- Each new account starts with 0 coins, 0 tokens, 0 XP, and level 1.
+### User login
+- Users log in with **email and password**.
+- After login, the user receives session tokens (access token and refresh token).
+- The login response includes the user's full profile: name, email, avatar, coins,
+tokens, XP, level, and account status.
+- Suspended or deleted accounts cannot log in.
+### User profile data
+Every user profile contains:
+- **Name** (display name)
+- **Email**
+- **Avatar URL** (optional profile picture)
+- **Account status** (Active, Suspended, or Deleted)
+- **Coins** (current balance)
+- **Tokens** (current balance)
+- **XP** (total experience points)
+- **Level** (derived from XP)
+### How Single Sign-On (SSO) works
+SSO allows a user who is logged in on one Saraya app to be automatically logged in
+on every other Saraya app without entering credentials again. Here is how it works
+from the user's perspective:
+1. **User logs in on any Saraya app** (e.g., Saraya Quiz). After login, the app
+establishes a shared session cookie on the central accounts domain
+(`.saraya.solutions`).
+2. **User visits another Saraya app** (e.g., Rewards Center) where they have no
+active session. The app silently redirects the user to the central accounts SSO page.
+3. **If the user is already authenticated** on the accounts domain, a one-time code is
+generated and the user is redirected back to the requesting app with that code.
+4. **The requesting app exchanges the code** for session tokens and logs the user
+in — no password prompt needed.
+5. **If the user is NOT authenticated** on the accounts domain, the app is informed
+that login is required, and the user is shown a login screen.
+The result: **one account, one login, access to everything.** Users sign in once and
+move freely between Quiz, Explore Sarajevo, Pametno Odabrano, Play & Win, and
+Rewards Center without re-entering credentials.
+### Admin dashboard
+Staff members with whitelisted email addresses can access the admin panel to:
+- View dashboard metrics: total accounts, suspended accounts, aggregate coin and
+token totals across all users.
+- Browse and search the full account list.
+- Create new accounts (with an initial coin balance).
+- Edit any account: change name, email, password, or avatar.
+- Adjust balances: add or subtract coins, tokens, or XP for any user.
+- Change account status: activate, suspend, or permanently delete accounts (with
+confirmation steps).
+- Change account status: activate, suspend, or permanently delete accounts (with
+confirmation steps).
+- View activity history for any account (what they earned, where, and when).
+- View a global activity feed of recent events across the platform.
+---
+## 8. Saraya Quiz
+### What it is
+Saraya Quiz is an interactive quiz platform where users answer multiple-choice
+questions on various topics and earn Coins and XP for correct answers. Quizzes can
+be taken by guests (without an account) or by signed-in users who want to earn
+rewards.
+### How quizzes work
+1. **Browse quizzes** — The home page displays a grid of available quizzes. Each
+quiz has a title, description, and a themed visual card.
+2. **Start a quiz** — Users choose to play as a signed-in user (to earn rewards) or
+as a guest (just for fun, with a display name). Some quizzes require an account and
+will redirect to login.
+3. **Answer questions** — All questions are multiple choice. Questions and their
+answer options are shuffled randomly each time to prevent memorization. All
+questions appear on a single scrollable page with a progress bar.
+4. **Submit answers** — After answering all questions, the user submits. The
+system records the score, time taken, and calculates rewards.
+5. **View results** — The results screen shows the score (correct/total), percentage,
+and a full review of all answers with the correct answer highlighted for any missed
+questions.
+### Reward system
+- Each quiz has configurable base rewards: **coins, XP, and optionally tokens**.
+- **First completion bonus** — The first time a user completes a specific quiz,
+rewards are multiplied (e.g., 2x).
+- **Perfect score bonus** — Scoring 100% correct triggers an additional multiplier.
+- **Daily login streak** — If the user has been claiming daily rewards consistently
+(tracked via Rewards Center), a streak multiplier can apply to quiz rewards.
+- **Reward attempt limit** — Each quiz has a maximum number of rewarded
+completions (default 3). After that, the user can still retake the quiz but will not earn
+additional rewards.
+- **Guest users** do not earn rewards. The results page prompts them to create an
+account to claim earnings.
+### Home page features
+- Platform statistics: number of active quizzes, total attempts across all users,
+completions today.
+- Quick toggle between showing a subset or all available quizzes.
+- Sign-in / account button with profile information (coins, XP, level, tier).
+### User profile (in-app)
+When logged in, users can view their profile via a modal that shows:
+- Display name and avatar
+- Current tier and level
+- Coin, token, and XP balances
+- A progress bar toward the next level
+### Languages
+Saraya Quiz is currently available in **English only**.
+### Admin features
+Quiz administrators (whitelisted emails) can:
+- Create, edit, publish, and delete quizzes.
+- Configure quiz metadata: title, description, visual theme, icon, and color gradient.
+- Add, edit, and remove questions with up to 6 answer choices and a marked correct
+answer.
+- Set reward parameters: base coins, XP, tokens, first-completion multiplier, perfect-
+score multiplier, and max rewarded attempts.
+- Set access rules: allow anonymous play, require an account, limit attempts per
+device, and set cooldown periods.
+- Toggle quizzes between active and inactive states.
+- Preview quizzes before publishing.
+- Copy shareable quiz links.
+- View detailed analytics: per-quiz scores, device/browser/OS breakdowns, recent
+attempts, abandoned vs. completed rates, and multi-account-per-device warnings.
+---
+## 9. Explore Sarajevo
+### What it is
+Explore Sarajevo is a tourism and local discovery website for the city of Sarajevo. It
+presents businesses (restaurants, cafés, shops, services) and attractions
+(landmarks, points of interest) organized by categories, with maps, photos, operating
+hours, and contact details. It is a guide for both tourists and locals.
+### Browsing and discovering content
+- **Home page** — Features premium highlighted businesses, a category grid,
+regular highlights, attractive locations carousel, a full business listing, editorial
+sections about Sarajevo, and an interactive map.
+- **Category pages** — Each category (e.g., Food & Drink, Accommodation, Health,
+Wellness & Beauty, Activities & Experiences, Nature & Outdoors, Events) has its
+own page with a hero section for premium listings, a map showing all businesses
+and attractions in that category, highlighted items, and a filterable list.
+- **Category pages** — Each category (e.g., Food & Drink, Accommodation, Health,
+Wellness & Beauty, Activities & Experiences, Nature & Outdoors, Events) has its
+own page with a hero section for premium listings, a map showing all businesses
+and attractions in that category, highlighted items, and a filterable list.
+- **Business detail pages** — Rich description, photo gallery with lightbox, open/
+closed status based on working hours, address, phone number, website link,
+embedded map, and a list of similar businesses.
+- **Attraction detail pages** — Similar to business pages: description, gallery,
+contact information, Google Maps link, embedded map, and similar attractions.
+### Maps and location
+- The home page features an interactive map of Sarajevo showing business markers
+with category filter chips.
+- Category pages include maps with all businesses and attractions in that category.
+- Detail pages show the specific location on an embedded map.
+- Attractions offer an "Open in Google Maps" link for navigation.
+- The contact page has an embedded Google Maps iframe showing the Saraya
+Solutions office.
+### Earning rewards by exploring
+Logged-in users can earn coins by reading about places:
+- After spending approximately **20 seconds** on a business or attraction detail
+page, a "Claim reward" button becomes available.
+- Reward amounts depend on the listing tier: **50 coins** for regular listings, **100
+coins** for highlighted listings, and **200 coins** for premium listings.
+- There is a **daily cap of 1,700 coins** from reading. Once reached, the user sees a
+"daily limit reached" message.
+### Static pages
+- **About ("O nama")** — Mission statement and feature overview (primarily in
+Bosnian).
+- **Contact** — Company information, email, physical address in Sarajevo, office
+hours, social media links, and an embedded map.
+- **Privacy Policy, Terms of Service, Cookie Policy** — Legal pages.
+### Languages
+- The user interface supports **Bosnian** and **English**. Users can switch
+languages via a toggle, and their preference is remembered.
+- Content from the CMS can have English translations where provided.
+- Some static pages (legal, about, contact) are primarily in Bosnian.
+### Ecosystem links
+The menu and footer link to other Saraya apps: Saraya Connect, Rewards Center,
+Quiz, Play & Win, and Pametno Odabrano.
+---
+## 10. Pametno Odabrano
+### What it is
+Pametno Odabrano (meaning "Smartly Chosen" in Bosnian) is a curated tech
+editorial website. It publishes product-focused articles including reviews, guides, and
+recommendations about technology products — primarily audio equipment, phones,
+laptops, smart home devices, and similar categories. It is an editorial and
+recommendation platform, not an e-commerce store.
+### Browsing content
+- **Home page** — Features a hero section, a highlighted article, value propositions
+(independent reviews, tested products, editor's picks, buying guides), a featured
+articles grid, and per-category carousels.
+- **All articles page** — A searchable and filterable catalog of all published articles.
+Users can search by title/description and filter by category using pills/chips.
+- **Article detail pages** — Full editorial content including: breadcrumb navigation,
+badges (e.g., "Editor's Choice"), estimated read time, publish date, star rating, hero
+image, photo gallery with lightbox, share button (copy page link), full HTML article
+body, "why we recommend" bullet points, a specifications table, tags, and related
+articles.
+- **Categories page** — Grid of all content categories; clicking one shows all articles
+in that category.
+- **Brands page** — Grid of product brands derived from articles, showing brand
+logo and article count. Featured brands are highlighted when available.
+### Earning rewards by reading
+Logged-in users can earn coins by engaging with articles:
+- After spending **20 seconds** on an article page, a "Claim reward" button appears.
+- Each article read earns **50 coins** (base amount).
+- The same article can only be rewarded **once per day**.
+- Users can earn rewards from up to **30 distinct articles per day** (maximum 1,500
+coins/day from reading).
+- **Daily login reward**: 500 base coins, potentially multiplied by the user's streak
+from the Rewards Center.
+- Toast notifications appear when rewards are claimed, showing the amount and any
+streak/multiplier bonuses.
+### Static pages
+- **About** — Mission, statistics, values, and product categories covered.
+- **Contact** — General: info@sarayasolutions.com; marketing: marketing@sarayasolutions.com;
+address: Terezija bb, Sarajevo 71000; inquiry types and social links as on the Contact page.
+- **Privacy, Terms, Cookies** — Legal/policy pages.
+### Languages
+- The user interface supports **Bosnian** and **English** via a language toggle.
+User preference is remembered.
+- CMS content can include English translations for titles and descriptions.
+- Default language is Bosnian; English is detected from browser settings.
+### Ecosystem links
+Navigation and footer link to Saraya Connect, Rewards Center, Quiz, Play & Win,
+and Explore Sarajevo.
+---
+## 11. Play & Win (Game Hub)
+### What it is
+Play & Win is a browser-based mini-game hub where users play casual games and
+earn Saraya Coins and XP. It features multiple game types with varying difficulty
+levels, daily reward limits to encourage return visits, and integration with the central
+Saraya account for rewards.
+### Available games
+1. **Wheel of Fortune** — Spin a prize wheel to win coins, XP boosts, partner
+prizes, jackpots, or "try again." Fully animated spin with a prize reveal modal.
+2. **Memory Match** — Classic card-matching game. Choose Easy, Medium, or
+Hard difficulty. Cards are previewed briefly, then flipped face-down. Match all pairs
+before time runs out.
+3. **Puzzle Challenge** — Sliding image puzzle with 3×3, 4×4, or 5×5 grid options.
+Drag pieces into the correct positions. Time-based rewards for faster completion.
+4. **Word Search** — Find hidden words in a letter grid. Difficulty affects grid size,
+word count, and time limit. Select words by dragging across letters.
+5. **Pac-Man** — Arcade-style maze game. Difficulty changes ghost count, speed,
+and time limits. Eat dots, avoid ghosts, grab power pellets.
+6. **Scratch Cards** — Listed as "Coming Soon" on the launcher.
+### How rewards work
+- **Signed-in users** earn coins and XP when they win or complete games.
+- **Daily reward limits**: Each game type has a limit of **3 reward-eligible plays per
+day**. For example, users can earn rewards from 3 Wheel of Fortune spins, 3
+Memory Match wins, 3 Puzzle completions, etc. — each tracked separately.
+- After reaching the daily limit for a game, users can **still play for fun** but will not
+earn additional rewards. A banner explains this.
+- **Guest users** can play all games but do **not earn any rewards**. They are
+prompted to sign in to start earning.
+- Reward amounts vary by game, difficulty, and performance (e.g., faster puzzle
+completion = more coins).
+- Daily limits reset at **midnight CET** (Central European Time).
+### Game launcher (home page)
+- Grid layout showing all available games with descriptions and visual cards.
+- Games that are disabled by administrators appear as "locked."
+- Headline stats: Total Games available, Max Coins earnable, Max XP earnable.
+- Side menu with links to: all games, How to Play guide, About page, Leaderboard
+(coming soon), and other Saraya apps.
+### Recent Winners
+- The Wheel of Fortune, Memory Match, Puzzle, and Word Search pages each show
+a "Recent Winners" feed displaying: player name, difficulty, time taken, and coins/XP
+earned.
+- Players without a display name are shown with a generated fun name.
+### How to Play & About pages
+- **How to Play** — General introduction to the reward system, followed by step-by-
+step instructions, tips, and example reward ranges for each game.
+- **About** — Product story, ecosystem explanation (how coins earned here connect
+to the Rewards Center and other apps), game descriptions, and support contact
+(info@sarayasolutions.com).
+### Account and authentication
+- Users can sign in or create an account directly from the game hub via a sign-in
+modal (email and password).
+- SSO is supported: users with an active Saraya session are automatically logged in.
+- The profile dropdown shows: name, avatar, coins, tokens, XP, level, and a level
+progress bar.
+### Languages
+Play & Win is currently available in **English only**.
+### Admin features
+Administrators (whitelisted emails) access a CMS panel to:
+- Toggle each game on/off on the public launcher.
+- Configure Wheel of Fortune prizes (labels, icons, colors, reward amounts,
+probability weights, images).
+- Manage Memory Match card images and difficulty settings.
+- Manage Puzzle images, difficulty configurations, and reward tiers.
+- Manage Word Search word banks, difficulty settings, and reward tiers.
+- Configure Pac-Man difficulty settings.
+- View game history and award dashboards for each game.
+---
+## 12. Rewards Center
+### What it is
+The Rewards Center is the **central marketplace and social hub** of the Saraya
+ecosystem. It is where users go to spend their earned coins and tokens on real
+rewards, track achievements, compete on leaderboards, connect with friends, chat,
+join tournaments, and discover more ways to earn. It has a dark, neon, game-
+inspired visual theme.
+### Rewards catalog
+- Users browse a catalog of redeemable items including **physical products**
+(merchandise, gadgets), **digital goods** (codes, subscriptions), and **perks**
+(discounts, special access).
+- Items are priced in either **Coins** or **Tokens**.
+- Users can search, sort, and filter rewards by type (Physical, Digital, Perk), category,
+currency (Coins or Tokens), and maximum price.
+- Featured and limited-time items are highlighted.
+- Announcement banners can appear at the top of the catalog for promotions.
+- To redeem: open a reward, set the desired quantity, and confirm. The cost is
+deducted from the user's balance and an order is created.
+- Some items may require **admin approval** before fulfillment, have **limited
+stock**, or have an **expiration date**.
+### Order tracking
+- Users view their order history on the Orders page, showing order status, totals, and
+dates.
+- Order statuses include pending, approved, fulfilled, and denied.
+### Ways to earn (Earn page)
+The Earn page aggregates all the ways users can accumulate coins and XP:
+- **Daily check-in reward** — Claim once per day. Base reward is coins, boosted by
+the user's current streak multiplier. A countdown timer shows when the next claim is
+available.
+- **Streak system** — Consecutive daily claims build a streak. Higher streaks
+increase the daily reward multiplier. Missing a day resets the streak.
+- **Social follow rewards** — Users can earn coins by following Saraya on social
+media platforms (YouTube, Instagram, Facebook, TikTok, LinkedIn). Each platform
+has a fixed coin reward, claimable once.
+- **Links to earning activities** — Cards linking to Saraya Quiz, Explore Sarajevo,
+Saraya Connect Hotspot, Pametno Odabrano, and Play & Win, explaining how each
+app lets users earn.
+### Promo codes / Coupons
+- Users can enter promotional coupon codes on the Coupons page.
+- Valid codes may grant coins, XP, tokens, or discounts.
+- Guest visitors can view the page but must log in to redeem.
+### Tournaments
+- Users can browse live and upcoming tournaments.
+- Each tournament has a prize pool (coins and/or tokens) and XP rewards.
+- Users can **join** or **leave** tournaments.
+- Featured tournaments are highlighted.
+- Each tournament has its own leaderboard showing participant standings.
+### Leaderboard
+- A **global leaderboard** ranks all users by total coins earned (lifetime balance plus
+spent).
+- The leaderboard has a podium (top 3), a top 10 list, and an expandable full list.
+- Clicking a user opens a profile modal showing their coins, XP, level, and streak.
+- Badge tiers (Bronze through Diamond) are displayed based on lifetime coin totals.
+- An **activity feed** alongside the leaderboard shows recent community actions
+(redemptions, achievements, etc.).
+### Friends system
+- Logged-in users can **search for other users** and **send friend requests**.
+- Users can **accept or decline** incoming friend requests.
+- A friends list shows all connected friends.
+- Friend request counts appear as notification badges in the sidebar.
+- Friend updates are delivered in real time.
+### Messaging / Chat
+- Users can send **direct messages** to friends.
+- The Messages page shows conversation threads.
+- Includes an emoji picker for expressive messaging.
+- Users can deep-link to a specific friend's chat.
+### Achievements
+- The Account page displays the user's achievements with progress bars and unlock
+status.
+- When a new achievement is unlocked, a celebration popup appears.
+- Achievements track milestones across the ecosystem (e.g., quizzes completed,
+articles read, games played, coins earned, etc.).
+### Account page
+The Account page is a personal dashboard showing:
+- User profile (name, avatar)
+- Wallet: current coin, token, and XP balances
+- Level and XP progress bar toward the next level
+- Tier progress (Bronze → Silver → Gold → Platinum → Diamond, based on total
+coins earned, with thresholds at 50k, 150k, 350k, 750k+)
+- Achievements section
+- Transaction/order history
+- Referral card (for inviting others)
+- Avatar customization section
+### Account settings
+Users can configure privacy preferences:
+- **Profile visibility** — Control whether their profile is public or private.
+- **Activity status** — Toggle whether online status is visible to others.
+- **Leaderboard visibility** — Choose whether to appear on the global leaderboard.
+### Avatar creation
+- New users who have not set an avatar are guided to an avatar builder after their
+first login.
+- The builder uses a Dicebear-style avatar generator where users can customize
+their look.
+- Avatar setup can be skipped and done later.
+### Referral system
+- Each user has a referral code that can be shared.
+- When someone registers via a referral link, both parties can benefit.
+- A dedicated landing page exists for referral links.
+### Notifications
+- Users receive in-app notifications for events such as: achievement unlocks, level
+ups, reward grants, coin earnings, promotions, and system announcements.
+- Notifications can be marked as read individually or all at once.
+- Some notifications trigger popup displays (e.g., coin/XP reward celebrations).
+### Support / Help Center
+- An FAQ-style support page organized by categories with expandable questions and
+answers.
+- Contact CTA for reaching Saraya support.
+### Static pages
+- **About** — Product story and ecosystem explanation.
+- **Contact** — Email contact for Saraya.
+- **Privacy, Terms, Cookies** — Legal/policy pages.
+### Languages
+- Supports **English** and **Bosnian** via a language switcher in the top bar.
+Preference is saved and remembered.
+### Admin features
+Administrators access a full back-office panel to:
+- View dashboard stats (total rewards, orders, pending orders, tournaments, users,
+revenue charts, recent orders).
+- Create, edit, and manage catalog rewards (titles, descriptions, pricing, images,
+types, categories, stock, expiry, approval requirements).
+- Organize rewards into browseable categories.
+- View, approve, fulfill, or deny redemption orders.
+- Create, configure, and manage tournaments.
+- Define achievements, milestones, and criteria.
+- Create and manage promo codes and their reward values.
+- View and manage user accounts.
+---
+## 13. Cross-Ecosystem Features & Connections
+### Single Sign-On (SSO) — One account for everything
+Users create one Saraya account and it works across all apps:
+- **Sign up** on any Saraya app (Quiz, Rewards Center, Explore, Pametno, Play &
+Win) — the same registration form is used everywhere.
+- **Log in once**, and when visiting another Saraya app, the user is automatically
+recognized and logged in without any additional action.
+- **Profile, balances, and progress sync in real time** across all apps. If a user earns
+100 coins on Saraya Quiz, those coins immediately appear in the Rewards Center,
+Explore Sarajevo, and everywhere else.
+### Unified virtual economy
+| Where you earn | How |
+|---|---|
+| **Saraya Quiz** | Complete quizzes correctly; bonuses for first completion, perfect
+scores, and streaks |
+| **Explore Sarajevo** | Read about businesses and attractions (20-second
+engagement); tiered rewards (50/100/200 coins) |
+| **Pametno Odabrano** | Read tech articles (20-second engagement, 50 coins
+each); daily login bonus (500 coins) |
+| **Play & Win** | Win games (Wheel, Memory, Puzzle, Word Search, Pac-Man);
+rewards vary by game and difficulty |
+| **Rewards Center** | Daily check-in, streak bonuses, social follows, promo codes,
+tournament prizes, referrals |
+| **Saraya Connect HS** | No direct earning on the portal itself; it connects users to
+earning opportunities on other apps |
+| Where you spend | How |
+|---|---|
+| **Rewards Center** | Browse the catalog and redeem coins/tokens for physical
+items, digital goods, and perks |
+### Daily limits and streaks
+- Most earning activities have **daily caps** to prevent abuse and encourage return
+visits:
+- Explore Sarajevo: 1,700 coins/day from reading.
+- Pametno Odabrano: 1,500 coins/day from reading (30 articles × 50 coins).
+- Play & Win: 3 rewarded plays per game type per day.
+- Saraya Quiz: configurable max rewarded attempts per quiz.
+- Rewards Center: 1 daily check-in per day.
+- **Streak system**: Consecutive daily logins/check-ins build a streak that multiplies
+rewards. Missing a day resets the streak. Streaks are tracked centrally and the
+multiplier can apply across apps.
+### Navigation between apps
+Every app in the ecosystem provides navigation links to the others:
+- **Navigation menus and footers** include links to: Saraya Connect, Rewards
+Center, Quiz, Play & Win, Explore Sarajevo, and Pametno Odabrano.
+- **Profile dropdowns** (when logged in) show links to other Saraya apps.
+- **The Hotspot portal** acts as a central launchpad with quick-access chips to all
+apps.
+- **The Earn page** in Rewards Center aggregates all earning opportunities with
+direct links to each app.
+### Social media presence
+The ecosystem links to Saraya Solutions social media:
+- Facebook
+- Instagram
+- YouTube
+- TikTok
+- LinkedIn
+Users can earn coins in the Rewards Center by following Saraya on these platforms.
+---
+## 14. Language Support Summary
+| Application | Languages |
+|---|---|
+| Saraya Accounts | English (admin-only interface) |
+| Saraya Quiz | English only |
+| Explore Sarajevo | Bosnian and English (toggle) |
+| Pametno Odabrano | Bosnian and English (toggle) |
+| Saraya Connect HS | Bosnian and English (toggle) |
+| Play & Win | English only |
+| Rewards Center | English and Bosnian (toggle) |
+---
+## 15. User Journey Examples
+### Example 1: New user discovers Saraya through WiFi
+1. A tourist in Sarajevo connects to free WiFi near Sebilj on Baščaršija.
+2. The **Saraya Connect captive portal** opens automatically — they see a branded
+welcome video, the weather in Sarajevo, a currency converter (EUR/USD to BAM),
+and promotional content.
+3. They tap "Explore Sarajevo" from the quick access chips.
+4. On **Explore Sarajevo**, they browse the Food & Drink category and read about a
+highly-rated ćevabdžinica. They see a map showing its location.
+5. A prompt suggests creating an account to earn rewards.
+6. They register (name, email, password) — this creates their Saraya account across
+the entire ecosystem.
+7. They log in and start earning coins by reading about places (50 coins for each
+regular listing after 20 seconds).
+8. Later, they visit **Saraya Quiz** — SSO logs them in automatically. They take a
+quiz about Sarajevo and earn more coins plus XP.
+9. They check the **Rewards Center** — again, SSO handles login. They see their
+accumulated coins and browse available rewards.
+### Example 2: Regular user daily routine
+1. A returning user opens the **Rewards Center** and claims their daily check-in
+reward (coins × streak multiplier). Their streak is now 7 days.
+2. They browse the **Pametno Odabrano** site, read 5 tech articles about
+smartphones, and earn 250 coins from reading.
+3. They play 3 rounds of **Wheel of Fortune** on Play & Win, earning coins and XP
+from each spin.
+4. They take a new quiz on **Saraya Quiz**, scoring 100% for the first time and
+earning bonus coins with the first-completion and perfect-score multipliers.
+5. They check their **Rewards Center** account page: their XP has pushed them to
+a new level, unlocking a "Level 10" achievement. A celebration popup appears.
+6. With enough coins saved, they redeem a reward from the catalog.
+### Example 3: Competitive / social user
+1. A user checks the **global leaderboard** on the Rewards Center to see their
+ranking.
+2. They search for a friend by name and send a friend request.
+3. Once accepted, they open a chat conversation and share tips about earning coins.
+4. They join an active tournament and compete for the prize pool.
+5. They share their referral code with others to earn referral bonuses when new
+users sign up.
+### Example 4: Advertiser / brand perspective
+1. A local restaurant chain wants to reach tourists and residents in Sarajevo.
+2. They book a **Hero Video** slot on the Saraya Connect captive portal — their
+16:9 video ad plays at the top of the portal every time a user connects to WiFi at any
+of the 7 network locations.
+2. They book a **Hero Video** slot on the Saraya Connect captive portal — their
+16:9 video ad plays at the top of the portal every time a user connects to WiFi at any
+of the 7 network locations.
+3. They also book two **rotating blocks** — a vertical 9:16 lifestyle video and a
+horizontal 16:9 promotional banner with a CTA linking to their website.
+4. Over the month, their campaign reaches up to **300,000 unique users** with
+**500,000 total impressions**. Over 70% of users see the ad multiple times because
+they reconnect to the network regularly.
+5. The restaurant sees increased foot traffic from users who saw their ad while
+connecting to WiFi on Ferhadija, just a few streets away from their location.
+---
+## 16. Support and Contact
+- **General email**: info@sarayasolutions.com
+- **Marketing email**: marketing@sarayasolutions.com
+- **Company address**: Saraya Solutions, Terezija bb, Sarajevo 71000, Bosnia and Herzegovina
+- **Help center**: Available in the Rewards Center with FAQ categories and
+expandable answers
+- **Contact pages**: Available on Explore Sarajevo, Pametno Odabrano, and
+Rewards Center with company information, address, and email
+---
+## 16a. Saraya and AI (website & products)
+- Saraya Solutions develops **AI-powered experiences** as part of its technology stack, including **AI chatbots** (virtual assistants / NLP), **AI avatars** on interactive displays, and related smart digital products described on **sarayasolutions.com** (e.g. Technology / Core technologies sections).
+- Interactive **Display** solutions and the broader ecosystem (Connect hotspot, web apps, games) may use AI or machine-learning features where documented per product.
+- For detailed positioning, use the public website and Payload-managed marketing copy in addition to this document.
+---
+## 17. Key Facts for Quick Reference
+- **WiFi network**: 7 locations across Sarajevo (Baščaršija, Sarači, Ferhadija, Zeleni
+Beretki corridor, Skenderija complex, Vilsonovo Šetalište, Bjelašnica — Babin Do).
+- **Monthly reach**: ~300,000 unique users, ~500,000 portal views, 70%+ returning
+users.
+- **Average portal session**: 2.5–7 minutes.
+- **Captive portal URL**: https://hs.saraya.solutions
+- **Ad formats**: Hero Video (16:9), Hero Banner (3:1), Vertical Block (9:16), Square
+Blocks (1:1 × 4), Horizontal Block (16:9).
+- **Minimum password length**: 15 characters (all apps enforce this).
+- **Account statuses**: Active, Suspended, Deleted.
+- **Tier progression**: Explorer → Champion → Legend → Mythic (based on level).
+- **Rewards Center tiers**: Bronze → Silver → Gold → Platinum → Diamond (based
+on lifetime coins earned).
+- **Currencies**: Coins (primary, widely earned and spent), Tokens (secondary), XP
+(progression, not spendable).
+- **Daily reward resets**: Midnight CET (Central European Time).
+- **SSO domain**: accounts.saraya.solutions with session cookies
+on .saraya.solutions.
+- **All apps are web-based**: No native mobile apps. All applications run in the
+browser.
+- **No e-commerce in Pametno Odabrano**: It is editorial/review only, not a store.
+- **Hotspot portal requires no login**: Designed for anonymous WiFi users, though it
+benefits from an existing session.
+- **Rewards Center is the only place to spend coins**: Other apps are for earning.
+- **Friends, chat, and tournaments are only in the Rewards Center**: Other apps do
+not have social features.
+- **Friends, chat, and tournaments are only in the Rewards Center**: Other apps do
+not have social features.
+- **Available games**: Wheel of Fortune, Memory Match, Puzzle Challenge, Word
+Search, Pac-Man (plus Scratch Cards coming soon).
+- **Explore Sarajevo content**: Businesses, attractions, categories, maps — all
+CMS-managed.
+- **Pametno Odabrano content**: Tech product reviews, guides, and
+recommendations — editorial, not e-commerce.
