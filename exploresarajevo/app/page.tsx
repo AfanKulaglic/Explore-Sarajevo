@@ -108,9 +108,9 @@ export default async function HomePage() {
 
   // ── Step 6: Directory (everything else) ──────────────────────────────────
   const usedIds = new Set<string>([
-    ...premiumBizIds,
-    ...highlightedBizIds,
-    ...featuredBizIds,
+    ...Array.from(premiumBizIds),
+    ...Array.from(highlightedBizIds),
+    ...Array.from(featuredBizIds),
   ]);
 
   const allBusinesses = businesses.filter(
